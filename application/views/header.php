@@ -71,7 +71,7 @@
 <div id="container">
     <div id="navigation">
         <ul>
-            <li><a href="home">O nás</a></li>
+            <li><a href="home">O nás2132132</a></li>
             <li><a href="photos">Fotogaléria</a></li>
             <li><a href="pricelist">Cenník</a></li>
             <li><a href="reservation">Rezervácie</a></li>
