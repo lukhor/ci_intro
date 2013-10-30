@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title><?php echo $title?></title>
     <base href="<?php echo base_url();?>" />
-
-    <style>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--<style>
         body, html{margin:0; padding:0;}
 
         body{
@@ -60,18 +60,43 @@
         }
 
 
+    </style>-->
+
+    <style>
+        .frame_area{
+
+
+        }
+
+        .single_frame{
+
+            float:left;
+            width:20px;
+            height: 200px;
+            background: red;
+        }
     </style>
 
+    <link rel="stylesheet" media="all" href="lessframework.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
 </body>
 
 </html>
 <body>
+
+<div class="frame_area">
+    <div class="single_frame"></div>
+    <div class="single_frame"></div>
+    <div class="single_frame"></div>
+    <div class="single_frame"></div>
+</div>
+
 <div id="container">
     <div id="navigation">
         <ul>
-            <li><a href="home">O nás2132132</a></li>
+            <li><a href="home">O nás</a></li>
             <li><a href="photos">Fotogaléria</a></li>
             <li><a href="pricelist">Cenník</a></li>
             <li><a href="reservation">Rezervácie</a></li>

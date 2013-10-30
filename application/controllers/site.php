@@ -16,7 +16,7 @@ class Site extends CI_Controller {
     public function home(){
         $data['title'] = "Home";
         $data['name'] = "Home";
-        $this->load->view("header",$data);
+        $this->load->view("header_bootstrap",$data);
         $this->load->view("main_content",$data);
         $this->load->view("footer",$data);
     }
