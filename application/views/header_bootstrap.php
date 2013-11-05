@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <script src="js/bootstrap.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/jquery.flexslider.js"></script>
 
