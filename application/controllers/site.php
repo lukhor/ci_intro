@@ -24,7 +24,7 @@ class Site extends CI_Controller {
     public function contact(){
         $data['title'] = "Kontakt";
         $data['name'] = "Kontakt";
-        $this->load->view("header",$data);
+        $this->load->view("header_bootstrap",$data);
         $this->load->view("contact_content",$data);
         $this->load->view("footer",$data);
     }
@@ -32,7 +32,7 @@ class Site extends CI_Controller {
     public function photos(){
         $data['title'] = "Fotky";
         $data['name'] = "Fotky";
-        $this->load->view("header",$data);
+        $this->load->view("header_bootstrap",$data);
         $this->load->view("photos_content",$data);
         $this->load->view("footer",$data);
     }
@@ -40,7 +40,7 @@ class Site extends CI_Controller {
     public function pricelist(){
         $data['title'] = "Cenník";
         $data['name'] = "Cenník";
-        $this->load->view("header",$data);
+        $this->load->view("header_bootstrap",$data);
         $this->load->view("pricelist_content",$data);
         $this->load->view("footer",$data);
     }
@@ -48,7 +48,7 @@ class Site extends CI_Controller {
     public function reservation(){
         $data['title'] = "Rezervácie";
         $data['name'] = "Rezervácie";
-        $this->load->view("header",$data);
+        $this->load->view("header_bootstrap",$data);
         $this->load->view("reservation_content");
         $this->load->view("footer");
 
