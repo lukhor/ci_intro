@@ -10,6 +10,7 @@ body {
     line-height: 1;
 }
 
-.slides img{
-    padding-left: 47px;
+
+#container {
+	padding-top:47px;
 }
