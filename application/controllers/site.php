@@ -14,7 +14,7 @@ class Site extends CI_Controller {
     }
 
     public function home(){
-        $data['title'] = "Home";
+        $data['title'] = "Penzión Modrovka";
         $data['name'] = "Home";
         $this->load->view("header_bootstrap",$data);
         $this->load->view("main_content",$data);
@@ -30,7 +30,7 @@ class Site extends CI_Controller {
     }
 
     public function photos(){
-        $data['title'] = "Fotky";
+        $data['title'] = "Fotogaléria";
         $data['name'] = "Fotky";
         $this->load->view("header_bootstrap",$data);
         $this->load->view("photos_content",$data);

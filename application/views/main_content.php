@@ -13,13 +13,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Ubytovanie Piešťany</a>
+                <a class="navbar-brand" href="#"><?php echo $name ?></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="home">O nás</a></li>
+                    <li class="active"><a href="home">O nás</a></li>
                     <li><a href="photos">Fotogaléria</a></li>
                     <li><a href="pricelist">Cenník</a></li>
                     <li><a href="reservation">Rezervácie</a></li>
@@ -29,7 +29,6 @@
         </nav>
 
         <!--Image flex bar-->
-        <div id="container">
         <div class="flexslider">
             <ul class="slides">
                 <li>
@@ -46,7 +45,7 @@
                 </li>
             </ul>
         </div>
-            </div>
+
 
         <!--CONTENT-->
         <div class="row">

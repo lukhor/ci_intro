@@ -10,7 +10,14 @@ body {
     line-height: 1;
 }
 
+<<<<<<< HEAD
 
 #container {
 	padding-top:47px;
 }
+=======
+.slides img{
+    padding-top: 47px;
+    width: 100%;
+}
+>>>>>>> e5ee84369822b8600e440ff1176e5d50b6bf7da6

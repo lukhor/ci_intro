@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Privát Piešťany 222</title>
+    <title><?php echo $title?></title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
