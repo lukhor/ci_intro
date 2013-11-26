@@ -23,7 +23,9 @@
                     <li><a href="photos">Fotogaléria</a></li>
                     <li><a href="pricelist">Cenník</a></li>
                     <li><a href="reservation">Rezervácie</a></li>
-                    <li><a href="contact">Kontakt</a></li>
+                    <li><a href="contact"><?php echo $this->lang->line("Hello");?></a></li>
+                    <li><?php echo anchor("site/change/slovak","SK")?></li>
+                    <li><?php echo anchor("site/change/english","ENG")?></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
