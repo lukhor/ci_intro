@@ -1,5 +1,7 @@
-<!--kornut-->
+<!--kornut
 
+
+-->
 <body>
 	<div class="navbar-wrapper">
 		<div class="container">
@@ -13,11 +15,12 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Modrovka </a>
+						
+						<a href="#" data-toggle="popover" class="logo"> </a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="active">
+							<li>
 								<a href="#">O nás</a>
 							</li>
 							<li>
@@ -29,18 +32,23 @@
 							<li>
 								<a href="#contact">Okolie</a>
 							</li>
-							<li>
+							<li class="active">
 								<a href="#contact">Kontakt</a>
 							</li>
 
 						</ul>
-
+						<div class="pocasie_nazov1">
+							Aktuálne
+						</div>
 						<div class="weather-button">
 							<div class="weather-toggle">
-								<button class="btn btn-default :active" data-toggle="popover">
-									Aktuálne počasie
-								</button>
+
+								<a href="#" data-toggle="popover" class="pocasie"> </a>
 							</div>
+
+						</div>
+						<div class="pocasie_nazov2">
+							počasie
 						</div>
 					</div>
 				</div>
@@ -64,11 +72,17 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- ======= weather div -->
 
 	<div id="weather" class="weatherFeed" style="display: none"></div>
+	<!--
+	<a href="#" data-toggle="tooltip" title="pocasie" class="pocasie"> </a>
 
+	<button class="btn btn-default :active" data-toggle="popover">
+	Aktuálne počasie
+	</button>
+	-->
 	<!-- ======= weather div
 
 	<div class="weather-toggle">
