@@ -12,17 +12,14 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
-    <script src="js/jquery.zweatherfeed.min.js" type="text/javascript"></script>   
+    <script src="js/jquery.zweatherfeed.min.js" type="text/javascript"></script>
+    <script src="https://github.com/HPNeo/gmaps/blob/master/gmaps.js" type="text/javascript"></script>
 
-    <script type="text/javascript">
-		$(document).ready(function() {
+    <script type="text/javascript" charset="utf-8">
+     	$(document).ready(function() {
 			$('#weather').weatherfeed(['LOXX0008']);
 		});
-	</script>
 
-
-    
-    <script type="text/javascript" charset="utf-8">
 		$(function() {
 			$('.weather-toggle').popover({
 
@@ -37,6 +34,8 @@
 			});
 
 		});
- </script>
+    </script>
+
+    <base href="<?php echo base_url(); ?>"/>
     
 </head>

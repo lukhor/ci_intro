@@ -14,6 +14,7 @@ class Site extends CI_Controller {
     }
 
     public function home(){
+        $this->loadLang();
         $data['title'] = "Penzión Modrovka";
         $data['name'] = "Home";
         $this->load->view("header_bootstrap",$data);
@@ -22,6 +23,7 @@ class Site extends CI_Controller {
     }
 
     public function contact(){
+        $this->loadLang();
         $data['title'] = "Kontakt";
         $data['name'] = "Kontakt";
         $this->load->view("header_bootstrap",$data);
@@ -30,6 +32,7 @@ class Site extends CI_Controller {
     }
 
     public function photos(){
+        $this->loadLang();
         $data['title'] = "Fotogaléria";
         $data['name'] = "Fotky";
         $this->load->view("header_bootstrap",$data);
@@ -38,6 +41,7 @@ class Site extends CI_Controller {
     }
 
     public function pricelist(){
+        $this->loadLang();
         $data['title'] = "Cenník";
         $data['name'] = "Cenník";
         $this->load->view("header_bootstrap",$data);
@@ -46,11 +50,23 @@ class Site extends CI_Controller {
     }
 
     public function reservation(){
+        $this->loadLang();
         $data['title'] = "Rezervácie";
         $data['name'] = "Rezervácie";
         $this->load->view("header_bootstrap",$data);
         $this->load->view("reservation_content");
         $this->load->view("footer");
+    }
 
+    public function change($type){
+        //meni session pre jazyk, refresh page
+        $this->session->set_userdata('lang',$type);
+            redirect(".", "refresh");
+    }
+
+    public function loadLang(){
+        //nacita lang
+        $lang = $this->session->userdata("lang")==null?"slovak":$this->session->userdata("lang");
+        $this->lang->load($lang,$lang);
     }
 }
