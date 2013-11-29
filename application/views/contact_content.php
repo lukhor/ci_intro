@@ -1,6 +1,5 @@
 <!--kornut
 
-
 -->
 <body>
 	<div class="navbar-wrapper">
@@ -15,7 +14,6 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						
 						<a href="#" data-toggle="popover" class="logo"> </a>
 					</div>
 					<div class="navbar-collapse collapse">
@@ -35,21 +33,43 @@
 							<li class="active">
 								<a href="#contact">Kontakt</a>
 							</li>
+							<li>
+								<div class="pocasie_komplet">
+									<div class="pocasie_nazov1">
+										Aktuálne
+									</div>
+									<div class="weather-button">
+										<div class="weather-toggle">
+
+											<a data-toggle="popover" class="pocasie"> </a>
+										</div>
+
+									</div>
+									<div class="pocasie_nazov2">
+										počasie
+									</div>
+								</div>
+							</li>
 
 						</ul>
-						<div class="pocasie_nazov1">
-							Aktuálne
-						</div>
-						<div class="weather-button">
-							<div class="weather-toggle">
-
-								<a href="#" data-toggle="popover" class="pocasie"> </a>
+						<!--
+						<div class="pocasie_komplet">
+							<div class="pocasie_nazov1">
+								Aktuálne
 							</div>
+							<div class="weather-button">
+								<div class="weather-toggle">
 
+									<a data-toggle="popover" class="pocasie"> </a>
+								</div>
+
+							</div>
+							<div class="pocasie_nazov2">
+								počasie
+							</div>
 						</div>
-						<div class="pocasie_nazov2">
-							počasie
-						</div>
+						-->
+						
 					</div>
 				</div>
 			</div>
@@ -72,7 +92,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- ======= weather div -->
 
 	<div id="weather" class="weatherFeed" style="display: none"></div>

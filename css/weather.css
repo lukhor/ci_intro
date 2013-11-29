@@ -1,12 +1,15 @@
 .weather-button {
-	float: right;
-	margin-right: 235px;
+	float: left;
+	/*margin-right: 235px;*/
+	margin-right:64px;
+	margin-left:3px;
 	margin-top: 2px;
 }
 
 .pocasie_nazov1 {
 	float: left;
-	margin-left: 124px;
+	/*margin-left: 124px;*/
+	margin-left:20px;
 	margin-top: 13px;
 	font-family: Roboto Medium;
 	font-size: 18px;
@@ -17,8 +20,8 @@
 }
 
 .pocasie_nazov2 {
-	float: right;
-	margin-right: -130px;
+	float: left;
+	/*margin-right: -130px;*/
 	margin-top: 13px;
 	font-family: Roboto Medium;
 	font-size: 18px;
