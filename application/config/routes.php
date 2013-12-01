@@ -43,8 +43,8 @@ $route['404_override'] = '';
 $route['contact'] = 'site/contact';
 $route['home'] = 'site/home';
 $route['photos'] = 'site/photos';
-$route['pricelist'] = 'site/pricelist';
-$route['reservation'] = 'site/reservation';
+$route['accomodation'] = 'site/accomodation';
+$route['attractions'] = 'site/attractions';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

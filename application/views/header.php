@@ -1,105 +1,110 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title><?php echo $title?></title>
-    <base href="<?php echo base_url();?>" />
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <!--<style>
-        body, html{margin:0; padding:0;}
 
-        body{
-            background-color: #EEE;
-        }
+    <!-------->
+    <!--CSSs-->
+    <!-------->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        h1, h2, h3, h4, p, a, li, ul{
-            font-family: arial,sans-serif;
-            color: black;
-            text-decoration: none;
-        }
+    <!----------->
+    <!--SCRIPTS-->
+    <!----------->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--BOOTSTRAP-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--FLEXSLIDER-->
+    <script src="js/jquery.flexslider.js"></script>
 
-        #navigation{
-            margin: 50px auto 0 auto;
-            width: 1000px;
-            background-color: #888;
-            height: 15px;
-            padding: 20px;
-        }
+    <!--GMAPS.JS-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="js/gmaps.js" type="text/javascript"></script>
 
-        #navigation a:hover{
-            color: green;
-        }
+    <!--FANCY BOX-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
 
-        #navigation ul{
-            list-style: none;
-            float: left;
-            margin: 0 50px;
-        }
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
 
-        #navigation ul li{
-            display: inline;
-        }
+    <!--WEATHER-->
+    <script src="js/jquery.zweatherfeed.min.js" type="text/javascript"></script>
 
-        #content{
-            width: 1000px;
-            min-height: 100%;
-            margin: 0 auto;
-            padding: 20px;
-        }
+    <script type="text/javascript" charset="utf-8">
+     	$(document).ready(function() {
+            /*GMAPS script*/
+            map = new GMaps({
+                div: '#map',
+                lat: 48.648146,
+                lng: 17.878564,
+                zoom: 10
+            });
 
-        #footer{
-            width: 400px;
-            height: 15px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+            map.addMarker({
+                lat: 48.648146,
+                lng: 17.878564,
+                title: 'Penzión Modrovka',
+                click: function (e) {
+                    alert('Penzion Modrovka');
+                }
+            });
 
-        #footer p{
-            color: #777;
-        }
+            GMaps.geolocate({
+                success: function (position) {
+                    map.drawRoute({
+                        origin: [position.coords.latitude, position.coords.longitude],
+                        destination: [48.648146, 17.878564],
+                        travelMode: 'driving',
+                        strokeColor: '#131540',
+                        strokeOpacity: 0.6,
+                        strokeWeight: 6
+                    });
 
+                    map.addMarker({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude,
+                        title: 'start'
+                    });
 
-    </style>-->
+                    map.fitZoom();
+                },
+                error: function (error) {
+                    /*alert('Geolocation failed: ' + error.message);*/
+                    map.setZoom(15);
+                },
+                not_supported: function () {
+                    /* alert("Your browser does not support geolocation");*/
+                    map.setZoom(15);
+                },
+                always: function () {
+                    /* alert("Done!");*/
+                }
+            });
 
-    <style>
-        .frame_area{
+            /*WEATHER*/
+			$('#weather').weatherfeed(['LOXX0008']);
+		});
 
+		$(function() {
+			$('.weather-toggle').popover({
+				selector : '[data-toggle="popover"]',
+				trigger : "click",
+				delay : 150,
+				placement : "bottom",
+				html : "true",
+				content : function() {
+					return $('#weather').html();
+				}
+			});
+		});
+    </script>
 
-        }
-
-        .single_frame{
-
-            float:left;
-            width:20px;
-            height: 200px;
-            background: red;
-        }
-    </style>
-
-    <link rel="stylesheet" media="all" href="lessframework.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <base href="<?php echo base_url(); ?>"/>
+    
 </head>
-
-</body>
-
-</html>
-<body>
-
-<div class="frame_area">
-    <div class="single_frame"></div>
-    <div class="single_frame"></div>
-    <div class="single_frame"></div>
-    <div class="single_frame"></div>
-</div>
-
-<div id="container">
-    <div id="navigation">
-        <ul>
-            <li><a href="home">O nás</a></li>
-            <li><a href="photos">Fotogaléria</a></li>
-            <li><a href="pricelist">Cenník</a></li>
-            <li><a href="reservation">Rezervácie</a></li>
-            <li><a href="contact">Kontakt</a></li>
-        </ul>
-    </div>

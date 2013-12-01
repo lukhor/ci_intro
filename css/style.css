@@ -29,8 +29,6 @@ body {
 	
 }
 
-
-
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
 	padding-left: 0;
@@ -165,6 +163,15 @@ body {
 	.featurette-heading {
 		margin-top: 120px;
 	}
+}
+
+.popin {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 20px #999;
+    border-radius: 2px;
+    width: 50%;
+    margin: 0 auto;
 }
 /*KORNUT END*/
 

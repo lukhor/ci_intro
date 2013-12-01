@@ -15,10 +15,10 @@
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active">
+                            <li>
                                 <a href="home">O nás</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="accomodation">Ubytovanie</a>
                             </li>
                             <li>
@@ -94,12 +94,7 @@
     <div id="weather" class="weatherFeed" style="display: none"></div>
 
     <div class="container">
-        <!--<li><a href="contact"><?php /*echo label('accomodation', $this); */?></a></li>
-        <li><?php /*echo anchor("site/change/slovak", "SK") */?></li>
-        <li><?php /*echo anchor("site/change/english", "ENG") */?></li>-->
-
         <!--CONTENT-->
-
         <div class="row">
             <div class="col-md-3">
                 <ul class="nav nav-list">
@@ -117,36 +112,16 @@
             <div class="col-md-9">
                 <h3>How we started ?</h3>
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
-
-
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
 
                 <h3>How do we market?</h3>
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
-
-                <a class="fancybox-thumb" rel="fancybox-thumb" href="images/img1.jpg"
-                   title="Ayvalık, Turkey (Nejdet Düzen)">
-                    <img src="images/img1.jpg" alt=""/>
-                </a>
-                <a class="fancybox-thumb" rel="fancybox-thumb" href="images/img2.jpg"
-                   title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">
-                    <img src="images/img2.jpg" alt=""/>
-                </a>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
             </div>
         </div>
-        <!--</div>--><!--uzavretie divu v footri-->
-
     </div>
+<!--</div>--><!--uzavretie body divu v footri-->
