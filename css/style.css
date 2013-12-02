@@ -60,7 +60,7 @@ body {
 /* Carousel base class */
 .carousel {
 	/*height: 500px;*/
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -253,11 +253,13 @@ body {
 	background-image: url('../images/pocasie_hover.png');
 	position: absolute;
 	margin: auto;
+
 }
 .pocasie, .pocasie:hover {
+
 	-webkit-transition-property: background color;
 	-webkit-transition-duration: 1s;
-	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;	
 	-moz-transition-property: background color;
 	-moz-transition-duration: 1s;
 	-moz-transition-timing-function: ease-in-out;
@@ -267,6 +269,7 @@ body {
 	-ms-transition-property: background color;
 	-ms-transition-duration: 1s;
 	-ms-transition-timing-function: ease-in-out;
+
 	transition-property: background color;
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
@@ -280,10 +283,66 @@ body {
 .logo {
 	width: 130px;
 	height: 50px;
-	background-image: url('../images/logo_mini_black3.png');
+	background-image: url('../images/logo_white2.png');
 	margin-right:10px;
 	float: left;
 	margin-left:30px;
 	margin-top:2px;
+}
+
+.social {
+	float:right;
+}
+
+.FB_social {
+	width:48px;
+	height:48px;
+	background-image: url('../images/Facebook.png');
+	margin-right:10px;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+.FB_social:hover {
+	 
+	width:48px;
+	height:48px;
+	background-image: url('../images/Facebook_hover.png');
+	transition-duration: 1s; 
+	transition-timing-function: ease-in-out;
+}
+
+
+.G_social {
+	width:48px;
+	height:48px;
+	background-image: url('../images/Google-Plus.png');
+	margin-right: 10px;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+.G_social:hover {
+	width:48px;
+	height:48px;
+	background-image: url('../images/Google-Plus_hover.png');
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+.Limba_social {
+	width:48px;
+	height:48px;
+	background-image: url('../images/Linkedin.png');
+	margin-right:10px;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+.Limba_social:hover {
+	width:48px;
+	height:48px;
+	background-image: url('../images/Linkedin_hover.png');
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
 }
 
