@@ -170,9 +170,26 @@ body {
     padding: 15px;
     box-shadow: 0 0 20px #999;
     border-radius: 2px;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
+
+.sk {
+    background-image: url('../images/sk.png');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 40px;
+    margin-top: 7px;
+    background-size:80% 80% ;
+}
+
+.eng {
+    background-image: url('../images/eng.png');
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 40px;
+}
+
 /*KORNUT END*/
 
 /* MIKE */

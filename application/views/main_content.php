@@ -2,7 +2,7 @@
     <!--NAVBAR-->
     <div class="navbar-wrapper">
         <div class="container">
-            <div class="navbar navbar-default navbar-static-top">
+            <div class="navbar navbar-default navbar-static-top navbar-inverse">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -16,57 +16,48 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li class="active">
-                                <a href="home">O nás</a>
+                                <a href="home"> <?php echo label('about', $this); ?></a>
                             </li>
                             <li>
-                                <a href="accomodation">Ubytovanie</a>
+                                <a href="accomodation"> <?php echo label('accomodation', $this); ?></a>
                             </li>
                             <li>
-                                <a href="photos">Fotogaléria</a>
+                                <a href="photos"> <?php echo label('photogallery', $this); ?></a>
                             </li>
                             <li>
-                                <a href="attractions">Okolie</a>
+                                <a href="attractions"> <?php echo label('attractions', $this); ?></a>
                             </li>
                             <li>
-                                <a href="contact">Kontakt</a>
+                                <a href="contact"> <?php echo label('contact', $this); ?></a>
+                            </li>
+                            <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                                <?php
+                                    $this->session->set_userdata("page", "home");
+                                    echo anchor("site/change/slovak","SK");
+                                ?>
+                            </li>
+                            <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                                <?php
+                                    $this->session->set_userdata("page", "home");
+                                    echo anchor("site/change/english", "ENG") ;
+                                ?>
                             </li>
                             <li>
                                 <div class="pocasie_komplet">
                                     <div class="pocasie_nazov1">
-                                        Aktuálne
+                                        <?php echo label('actual', $this); ?>
                                     </div>
                                     <div class="weather-button">
                                         <div class="weather-toggle">
-
                                             <a data-toggle="popover" class="pocasie"> </a>
                                         </div>
-
                                     </div>
                                     <div class="pocasie_nazov2">
-                                        počasie
+                                        <?php echo label('weather', $this); ?>
                                     </div>
                                 </div>
                             </li>
-
                         </ul>
-                        <!--
-                        <div class="pocasie_komplet">
-                            <div class="pocasie_nazov1">
-                                Aktuálne
-                            </div>
-                            <div class="weather-button">
-                                <div class="weather-toggle">
-
-                                    <a data-toggle="popover" class="pocasie"> </a>
-                                </div>
-
-                            </div>
-                            <div class="pocasie_nazov2">
-                                počasie
-                            </div>
-                        </div>
-                        -->
-
                     </div>
                 </div>
             </div>
@@ -89,8 +80,25 @@
         </div>
     </div>
 
-    <!-- ======= weather div -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-inner">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav social">
+                    <li>
+                        <a href="" class="FB_social"></a>
+                    </li>
+                    <li>
+                        <a href="" class="G_social"></a>
+                    </li>
+                    <li>
+                        <a href="" class="Limba_social"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <!-- ======= weather div -->
     <div id="weather" class="weatherFeed" style="display: none"></div>
 
     <div class="container">
@@ -101,52 +109,51 @@
         <!--CONTENT-->
 
         <div class="row">
-            <div class="col-md-3">
-                <ul class="nav nav-list">
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                </ul>
-            </div>
-            <div class="col-md-9">
-                <h3>How we started ?</h3>
+            <div class="col-lg-12">
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
+                <h3><?php echo label('veta1', $this); ?></h3>
+                <h3><?php echo label('veta2', $this); ?></h3>
+                <h3><?php echo label('veta3', $this); ?></h3>
+                <h3><?php echo label('veta4', $this); ?></h3>
+                <h3><?php echo label('veta5', $this); ?></h3>
+                <h3><?php echo label('veta6', $this); ?></h3>
+                <h3><?php echo label('veta7', $this); ?></h3>
+                <h3><?php echo label('veta8', $this); ?></h3>
+                <h3><?php echo label('veta9', $this); ?></h3>
+                <h3><?php echo label('veta10', $this); ?></h3>
 
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
-
-
-
-                <h3>How do we market?</h3>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-                    euismod. Donec sed odio dui.</p>
-
-                <a class="fancybox-thumb" rel="fancybox-thumb" href="images/img1.jpg"
-                   title="Ayvalık, Turkey (Nejdet Düzen)">
-                    <img src="images/img1.jpg" alt=""/>
-                </a>
-                <a class="fancybox-thumb" rel="fancybox-thumb" href="images/img2.jpg"
-                   title="Sicilian Scratches   erice (italianoadoravel on/off coming back)">
-                    <img src="images/img2.jpg" alt=""/>
-                </a>
             </div>
         </div>
         <!--</div>--><!--uzavretie divu v footri-->
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Rezervácie
+        </button>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Rezervačný formulár</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>tu si rezervujte izbu</p>
+
+                        <p>Dátum od</p>
+
+                        <p>Dátum do</p>
+
+                        <p>Počet osôb</p>
+
+                        <p>kontakt</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+                        <button type="button" class="btn btn-primary">Odoslať</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
     </div>
