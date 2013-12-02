@@ -2,7 +2,7 @@
     <!--NAVBAR-->
     <div class="navbar-wrapper">
         <div class="container">
-            <div class="navbar navbar-default navbar-static-top">
+            <div class="navbar navbar-default navbar-static-top navbar-inverse">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -83,8 +83,25 @@
         </div>
     </div>
 
-    <!-- ======= weather div -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-inner">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav social">
+                    <li>
+                        <a href="" class="FB_social"></a>
+                    </li>
+                    <li>
+                        <a href="" class="G_social"></a>
+                    </li>
+                    <li>
+                        <a href="" class="Limba_social"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <!-- ======= weather div -->
     <div id="weather" class="weatherFeed" style="display: none"></div>
 
     <div class="container">
