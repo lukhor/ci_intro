@@ -2,6 +2,7 @@
 @import url("bootstrap.css");
 @import url("weather.css");
 
+
 .flex-next, .flex-prev {
 	line-height: 1;
 }
@@ -43,9 +44,8 @@ body {
 
 .navbar-collapse .nav {
 	color: #575454;
-	text-shadow: 0px 0px 2px #b0b0b0;
-	filter: dropshadow(color=#b0b0b0, offx=0, offy=0);
-	font-family: "Roboto Medium";
+	
+	font-family: "Roboto";
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -372,3 +372,14 @@ body {
 	transition-timing-function: ease-in-out;
 }
 
+.languages{
+	width:48px;
+	height:48px;
+	background-image: url('../images/earth.png');
+}
+
+.languages: hover {
+	width:48px;
+	height:48px;
+	background-image: url('../images/earth_hover.png');
+}
