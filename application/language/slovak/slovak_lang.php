@@ -36,3 +36,22 @@ $lang['accomodation'] = "Ubytovanie";
 $lang['photogallery'] = "Fotogaléria";
 $lang['attractions'] = "Okolie";
 $lang['contact'] = "Kontakt";
+$lang['contact_'] = "kontakt na Vás";
+
+$lang['name'] = "Meno a priezvisko";
+$lang['datefrom'] = "Dátum od";
+$lang['dateto'] = "Dátum do";
+$lang['amountof'] = "Počet osôb";
+
+$lang['name_'] = "meno a priezvisko";
+$lang['datefrom_'] = "od";
+$lang['dateto_'] = "do";
+$lang['amountof_'] = "počet osôb";
+
+$lang['reservation'] = "Rezervácie";
+$lang['reservationform'] = "Rezervačný formulár";
+
+$lang['exit'] = "Zavrieť";
+$lang['send'] = "Odoslať";
+
+

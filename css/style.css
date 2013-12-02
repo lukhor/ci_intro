@@ -190,6 +190,15 @@ body {
     height: 40px;
 }
 
+.fancybox img{
+    width: 250px;
+    margin: 5px;
+
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 20px #999;
+    border-radius: 2px;
+}
 /*KORNUT END*/
 
 /* MIKE */

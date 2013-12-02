@@ -40,3 +40,20 @@ $lang['accomodation'] = "Accomodation";
 $lang['photogallery'] = "Photos";
 $lang['attractions'] = "Attractions";
 $lang['contact'] = "Contact";
+$lang['contact_'] = "your contact";
+
+$lang['name'] = "Name and surname";
+$lang['datefrom'] = "Date from";
+$lang['dateto'] = "Date to";
+$lang['amountof'] = "Number of people";
+
+$lang['name_'] = "name and surname";
+$lang['datefrom_'] = "from";
+$lang['dateto_'] = "to";
+$lang['amountof_'] = "number of people";
+
+$lang['reservation'] = "Reservation";
+$lang['reservationform'] = "Reservation form";
+
+$lang['exit'] = "Close";
+$lang['send'] = "Send";

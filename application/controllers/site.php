@@ -57,4 +57,29 @@ class Site extends CI_Controller {
         $lang = $this->session->userdata("lang")==null?"slovak":$this->session->userdata("lang");
         $this->lang->load($lang,$lang);
     }
+
+    public function sent_mail(){
+        $config['protocol'] = 'smtp';
+        $config['charset'] = 'iso-8859-1';
+        $config['smtp_host'] = "gator4053.hostgator.com";
+        $config['smtp_user'] = "privat@tvin.sk";
+        $config['smtp_pass'] = "mineralka";
+        $config['smtp_port'] = 465;
+        $config['smtp_timeout'] = 5;
+        $config['wordwrap'] = TRUE;
+
+        $this->load->library('email');
+        $this->email->initialize($config);
+
+        $this->email->from('privat@tvin.sk', 'ja');
+        $this->email->to('lukhor@gmail.com');
+
+        $this->email->subject('Email Test');
+        $this->email->message('Testing the email class.');
+
+        $this->email->send();
+
+        echo $this->email->print_debugger();
+        /*echo $this->input->post('contact1');*/
+    }
 }

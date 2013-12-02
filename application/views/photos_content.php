@@ -143,23 +143,85 @@
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
 
+
+
 <div class="container">
     <!--CONTENT-->
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 text-center">
             <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
-                <img src="images/img1.jpg" alt="" style="width: 200px"/>
+                <img src="images/img1.jpg" alt=""/>
             </a>
-            <a class="fancybox" rel=gallery1" href="images/img2.jpg" title="izba číslo 2">
-                <img src="images/img2.jpg" style="width: 200px" alt=""/>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 2">
+                <img src="images/img2.jpg" alt=""/>
             </a>
-            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 2">
-                <img src="images/img3.jpg" style="width: 200px" alt=""/>
+            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 3">
+                <img src="images/img3.jpg" alt=""/>
             </a>
-            <a class="fancybox" rel="gallery1" href="images/img4.jpg" title="izba číslo 2">
-                <img src="images/img3.jpg" style="width: 200px" alt=""/>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 4">
+                <img src="images/img1.jpg" alt=""/>
             </a>
-        </div>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 5">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 6">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 2">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 3">
+                <img src="images/img3.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 4">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 5">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 6">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 2">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 3">
+                <img src="images/img3.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 4">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 5">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 6">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 2">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 3">
+                <img src="images/img3.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 4">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 5">
+                <img src="images/img1.jpg" alt=""/>
+            </a>
+            <a class="fancybox" rel="gallery1" href="images/img2.jpg" title="izba číslo 6">
+                <img src="images/img2.jpg" alt=""/>
+            </a>
+        </div> <!--2,6,10-->
     </div>
 </div>
 
