@@ -16,24 +16,36 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="home">O nás</a>
+                                <a href="home"> <?php echo label('about', $this); ?></a>
                             </li>
                             <li class="active">
-                                <a href="accomodation">Ubytovanie</a>
+                                <a href="accomodation"> <?php echo label('accomodation', $this); ?></a>
                             </li>
                             <li>
-                                <a href="photos">Fotogaléria</a>
+                                <a href="photos"> <?php echo label('photogallery', $this); ?></a>
                             </li>
                             <li>
-                                <a href="attractions">Okolie</a>
+                                <a href="attractions"> <?php echo label('attractions', $this); ?></a>
                             </li>
                             <li>
-                                <a href="contact">Kontakt</a>
+                                <a href="contact"> <?php echo label('contact', $this); ?></a>
+                            </li>
+                            <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                                <?php
+                                $this->session->set_userdata("page", "accomodation");
+                                echo anchor("site/change/slovak","SK");
+                                ?>
+                            </li>
+                            <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                                <?php
+                                $this->session->set_userdata("page", "accomodation");
+                                echo anchor("site/change/english", "ENG") ;
+                                ?>
                             </li>
                             <li>
                                 <div class="pocasie_komplet">
                                     <div class="pocasie_nazov1">
-                                        Aktuálne
+                                        <?php echo label('actual', $this); ?>
                                     </div>
                                     <div class="weather-button">
                                         <div class="weather-toggle">
@@ -43,30 +55,12 @@
 
                                     </div>
                                     <div class="pocasie_nazov2">
-                                        počasie
+                                        <?php echo label('weather', $this); ?>
                                     </div>
                                 </div>
                             </li>
 
                         </ul>
-                        <!--
-                        <div class="pocasie_komplet">
-                            <div class="pocasie_nazov1">
-                                Aktuálne
-                            </div>
-                            <div class="weather-button">
-                                <div class="weather-toggle">
-
-                                    <a data-toggle="popover" class="pocasie"> </a>
-                                </div>
-
-                            </div>
-                            <div class="pocasie_nazov2">
-                                počasie
-                            </div>
-                        </div>
-                        -->
-
                     </div>
                 </div>
             </div>

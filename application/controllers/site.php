@@ -49,7 +49,7 @@ class Site extends CI_Controller {
     public function change($type){
         //meni session pre jazyk, refresh page
         $this->session->set_userdata('lang',$type);
-            redirect(".", "refresh");
+        redirect($this->session->userdata('page'), "refresh");
     }
 
     public function loadLang(){
