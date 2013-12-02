@@ -8,8 +8,9 @@
     <!-------->
     <!--CSSs-->
     <!-------->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,latin-ext' rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+	
     <!----------->
     <!--SCRIPTS-->
     <!----------->
