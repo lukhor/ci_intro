@@ -6,13 +6,14 @@
         $(".fancybox").fancybox({
             openEffect: 'elastic',
             closeEffect: 'elastic',
+            arrows: true,
 
             helpers: {
                 overlay: {
                     css: {
                         'background': 'rgba(0, 0, 0, 0.9)'
                     }
-                },
+                }/*,
                 title: {
                     type: 'outside'
                 },
@@ -20,7 +21,7 @@
                     width: 50,
                     height: 50
                 },
-                buttons: {}
+                buttons: {}*/
             }
         });
 

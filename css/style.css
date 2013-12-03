@@ -191,8 +191,10 @@ body {
 }
 
 .fancybox img{
-    width: 250px;
+    width: auto;
+    height: 222px;
     margin: 5px;
+
 
     background: #fff;
     padding: 15px;
