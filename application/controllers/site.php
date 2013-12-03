@@ -59,7 +59,7 @@ class Site extends CI_Controller {
     }
 
     public function sent_mail(){
-        $config['protocol'] = 'smtp';
+        $config['protocol'] = 'mail';
         $config['charset'] = 'iso-8859-1';
         $config['smtp_host'] = "gator4053.hostgator.com";
         $config['smtp_user'] = "privat@tvin.sk";
