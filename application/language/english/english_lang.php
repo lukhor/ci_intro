@@ -3,29 +3,35 @@ $lang['Hello'] = "hello";
 $lang["World"] = "world";
 
 $lang['veta1'] = "Village Modrovka is located in the heart of beautiful nature of Považský Inovec, between Nové Mesto and the famous spa town Piešťany.";
-
-
-$lang['veta2'] = "Je to malebná dedinka, ktorá má výhodnú polohu, lebo je tu zjazd z diaľnice.";
 $lang['veta2'] = "It is a sweet little village, which is good located, because there is a motorway exit.";
-
-$lang['veta3'] = "Neďaleko je známe rekreačné stredisko Bezovec, ktoré poskytuje v zimnom období športové využitie. Sú tu vybudované 4 vleky, umelé zasnežovanie a osvetlenie na nočné lyžovanie. Pre deti detský vlek a možnosť výučby lyžovania inštruktorom.";
-$lang['veta4'] = "V lete je tu možnosť turistiky, hubárčenia a nerušeného oddychu v prírode.";
-$lang['veta5'] = "Asi 10 km sa nachádza obec Kálnica, kde je taktiež možnosť lyžovania na dvoch novo zrekonštruovaných vlekoch a tiež je prevádzkované aj nočné lyžovanie. Sú tam vybudované podmienky aj na lyžovanie v lete.";
-$lang['veta6'] = "V okolí je atrakcií viac :<br>
-<b>Tematín</b> - zrúcanina hradu<br>
-Kostolec – architektonická pamiatka z čias Cyrila a Metoda<br>
-Beckov – zrúcanina hradu, cyklotrasy, hneď pod hradom reštaurácia džakúzi, kolkáreň<br>
-Čachtice – zrúcanina hradu, cyklotrasy, pizzerie, reštaurácia<br>
-Javorina – lyžovanie a turistické využitie<br>
-Inovec – športové a turistické využitie<br
-Zelená Voda pri Novom Meste n/V – prírodné jazero vhodné na kúpanie, a rôzne vodné<br>
-športy ako surfovanie, člnkovanie, požičovňa vodných bicyklov, možnosť jazdy na koňoch<br>
-Ratnovce – vodné lyžovanie, reštaurácia Tri groše<br>
-Reštaurácia Furman – vynikajúca kuchyňa a príjemné posedenie v prírode obklopené divou zverou / jelene, daniele, srnky, lane/ , detské ihrisko";
-$lang['veta7'] = "Mesto Piešťany netreba zvlášť predstavovať. Od obce Modrovka je vzdialené 10 km. Je tam veľa možností kultúrneho a športového využitia a kúpele poskytujú relax a oddych. Procedúry sú poskytované aj ambulantne, takže je tu možnosť dochádzania. Je to cca 8 km. V období kúpeľnej sezóny sú poriadané rôzne akcie, ktoré uspokoja aj tých najnáročnejších.";
-$lang['veta8'] = "Ubytovanie tiež poskytujem pre firmy, ktoré v okolí pracujú. Oproti ubytovania je reštaurácia, kde sa dá dobre a lacno stravovať. Každý deň sa tam podáva menu a robia aj veľmi dobrú pizzu a samozrejme aj jedlá na objednávku. Otvorené je denne do 22,00 hod. Neďaleko sú dva obchody otvorené od 6,00 hod.";
-$lang['veta9'] = "Ubytovanie je teda vhodné pre široké spektrum zákazníkov a každý tu nájde to, čo práve potrebuje.";
-$lang['veta10'] = "Teším sa na Vašu návštevu Marta Masárová.";
+$lang['veta3'] = "Nearby is the famous resort Bezovec, which in winter provides sporting opportunities.
+There are built 4 lifts, artificial snow and night skiing.
+For children there is also ski lift and the possibility of teaching with skiing instructor.";
+$lang['veta4'] = "In summer there is the possibility of hiking, mushroom picking and undisturbed rest in nature.";
+$lang['veta5'] = "About 10 km is the village Kálnica, where it is also possible to ski on two newly refurbished lifts and also there is night skiing.
+There are also built conditions for skiing in the summer.";
+$lang['veta6'] = "There are more attractions nearby:</br>
+Tematín - ruins </br>
+Kostolec - architectural monument from the time of Cyril and Methodius </br>
+Beckov - ruins, cycling, just below the castle džakúzi restaurant, bowling alley </br>
+Čachtice - ruins, cycling, pizzeria, restaurant </br>
+Javorina - skiing and hiking use </br>
+Inovec - sports and tourist</br>
+Zelená Voda near Nove Mesto n / V - natural lake suitable for swimming and various water </br>
+sports such as surfing, boating, water bike, and there you can ride a horse </br>
+Ratnovce - water skiing, restaurant Tri groše</br>
+Restarant Furman - excellent cuisine and pleasant atmosphere in the countryside surrounded by wild animals (deer, fallow deer, deer, doe), playground";
+$lang['veta7'] = "Piešťany needs no introduction.
+From village Modrovka is only 10 km away.
+There are many options for culture, sporting and there is a spa for relaxation. Procedures are also provided outpatient basis, so there is the option of commuting.
+It's about 8 km. During the bathing season are organized various events that will satisfy even the most demanding person.";
+$lang['veta8'] = "I provide accommodation for companies too, which are nearby.
+Across accommodation there is a restaurant where you can eat well and cheaply.
+Every day there is a menu and they also make a very good pizza and of course meals for order.
+Open daily until 22.00 pm.
+Also nearby are two shops open from 6.00 pm.";
+$lang['veta9'] = "Accommodation is thus suitable for a wide range of customers and everyone here finds what exactly needs.";
+$lang['veta10'] = "I am looking forward for your visit, Marta Masárová.";
 
 $lang['phone'] = "Telephone number";
 $lang['address'] = "Address";

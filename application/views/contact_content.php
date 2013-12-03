@@ -97,21 +97,19 @@
                         <li>
                             <div class="pocasie_komplet">
                                 <div class="pocasie_nazov1">
-                                    Aktuálne
+                                    <?php echo label('actual', $this); ?>
                                 </div>
                                 <div class="weather-button">
                                     <div class="weather-toggle">
 
                                         <a data-toggle="popover" class="pocasie"> </a>
                                     </div>
-
                                 </div>
                                 <div class="pocasie_nazov2">
-                                    počasie
+                                    <?php echo label('weather', $this); ?>
                                 </div>
                             </div>
                         </li>
-
                     </ul>
                 </div>
             </div>
