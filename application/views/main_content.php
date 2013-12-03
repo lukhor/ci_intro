@@ -2,7 +2,7 @@
 <!--NAVBAR-->
 <div class="navbar-wrapper">
     <div class="container">
-        <div class="navbar navbar-default navbar-static-top navbar-inverse">
+        <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -73,13 +73,19 @@
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/img4.jpg" alt="First slide">
+            <img src="images/carousel/wide4-tiltshift.jpg" alt="image">
         </div>
         <div class="item">
-            <img src="images/img5.jpg" alt="Second slide">
+            <img src="images/carousel/wide5-tiltshift.jpg" alt="image">
         </div>
         <div class="item">
-            <img src="images/img6.jpg" alt="Third slide">
+            <img src="images/carousel/wide6-tiltshift.jpg" alt="image">
+        </div>
+        <div class="item">
+            <img src="images/carousel/wide7-tiltshift.jpg" alt="image">
+        </div>
+        <div class="item">
+            <img src="images/carousel/wide8-tiltshift.jpg" alt="image">
         </div>
     </div>
 </div>

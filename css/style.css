@@ -142,7 +142,7 @@ body {
 	}
 
 	/* The navbar becomes detached from the top, so we round the corners */
-	.navbar-wrapper .navbarL {
+	.navbar-wrapper .navbar {
 		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 30px;
 	}
