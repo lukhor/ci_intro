@@ -68,19 +68,31 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="home">O nás</a>
+                            <a href="home"> <?php echo label('about', $this); ?></a>
                         </li>
                         <li>
-                            <a href="accomodation">Ubytovanie</a>
+                            <a href="accomodation"> <?php echo label('accomodation', $this); ?></a>
                         </li>
                         <li>
-                            <a href="photos">Fotogaléria</a>
+                            <a href="photos"> <?php echo label('photogallery', $this); ?></a>
                         </li>
                         <li>
-                            <a href="attractions">Okolie</a>
+                            <a href="attractions"> <?php echo label('attractions', $this); ?></a>
                         </li>
                         <li class="active">
-                            <a href="contact">Kontakt</a>
+                            <a href="contact"> <?php echo label('contact', $this); ?></a>
+                        </li>
+                        <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                            <?php
+                            $this->session->set_userdata("page", "contact");
+                            echo anchor("site/change/slovak","SK");
+                            ?>
+                        </li>
+                        <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                            <?php
+                            $this->session->set_userdata("page", "contact");
+                            echo anchor("site/change/english", "ENG") ;
+                            ?>
                         </li>
                         <li>
                             <div class="pocasie_komplet">

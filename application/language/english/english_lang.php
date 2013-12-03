@@ -40,7 +40,7 @@ $lang['accomodation'] = "Accomodation";
 $lang['photogallery'] = "Photos";
 $lang['attractions'] = "Attractions";
 $lang['contact'] = "Contact";
-$lang['contact_'] = "your contact";
+$lang['contact_'] = "phone number or email";
 
 $lang['name'] = "Name and surname";
 $lang['datefrom'] = "Date from";
@@ -57,3 +57,6 @@ $lang['reservationform'] = "Reservation form";
 
 $lang['exit'] = "Close";
 $lang['send'] = "Send";
+
+$lang['note'] = "Note";
+$lang['note_'] = "other notes for accomodation";

@@ -59,13 +59,23 @@ class Site extends CI_Controller {
     }
 
     public function sent_mail(){
+        //premenne z formulara
+        $name = $this->input->post('nameOf');
+        $datefrom = $this->input->post('dateFrom');
+        $dateto = $this->input->post('dateTo');
+        $numberof = $this->input->post('amountOfPerson');
+        $contact = $this->input->post('contact1');
+        $note = $this->input->post('note');
+
+        //posielanie mailu
         $config['protocol'] = 'mail';
-        $config['charset'] = 'iso-8859-1';
+        $config['charset'] = 'utf-8';
         $config['smtp_host'] = "gator4053.hostgator.com";
         $config['smtp_user'] = "privat@tvin.sk";
         $config['smtp_pass'] = "mineralka";
         $config['smtp_port'] = 465;
         $config['smtp_timeout'] = 5;
+        $config['mailtype'] = 'text';
         $config['wordwrap'] = TRUE;
 
         $this->load->library('email');
@@ -74,12 +84,17 @@ class Site extends CI_Controller {
         $this->email->from('privat@tvin.sk', 'ja');
         $this->email->to('lukhor@gmail.com');
 
-        $this->email->subject('Email Test');
-        $this->email->message('Testing the email class.');
+        $this->email->subject('Rezervácia ubytovania');
+
+        $messageof = 'Rezervácia ubytovania pre: ' . $name . " od " . $datefrom . " do ". $dateto . '.'
+            . "\nPočet osôb: " . $numberof
+            . "\nKontakt na osobu: " . $contact
+            . "\nPoznámka k ubytovaniu: " . $note ;
+
+        $this->email->message($messageof);
 
         $this->email->send();
-
-        echo $this->email->print_debugger();
-        /*echo $this->input->post('contact1');*/
+        echo "mail was sent";
+        /*echo $this->email->print_debugger();*/
     }
 }

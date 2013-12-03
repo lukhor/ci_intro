@@ -165,7 +165,7 @@
 
                         <div class="form-group">
                             <label for="nameOf"><?php echo label('name', $this); ?></label>
-                            <input type="date" class="form-control" id="nameOf" name="nameOf" placeholder="<?php echo label('name_', $this); ?>">
+                            <input type="text" class="form-control" id="nameOf" name="nameOf" placeholder="<?php echo label('name_', $this); ?>">
                         </div>
 
                         <div class="form-group">
@@ -188,6 +188,12 @@
                             <label for="contact1"><?php echo label('contact', $this); ?></label>
                             <input type="text" class="form-control" id="contact1" name="contact1"
                                    placeholder="<?php echo label('contact_', $this); ?>">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="note"><?php echo label('note', $this); ?></label>
+                            <input type="text" class="form-control" id="note" name="note"
+                                   placeholder="<?php echo label('note_', $this); ?>">
                         </div>
                     </div>
                     <div class="modal-footer">

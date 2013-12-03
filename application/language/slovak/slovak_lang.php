@@ -36,7 +36,7 @@ $lang['accomodation'] = "Ubytovanie";
 $lang['photogallery'] = "Fotogaléria";
 $lang['attractions'] = "Okolie";
 $lang['contact'] = "Kontakt";
-$lang['contact_'] = "kontakt na Vás";
+$lang['contact_'] = "telefónne číslo alebo email";
 
 $lang['name'] = "Meno a priezvisko";
 $lang['datefrom'] = "Dátum od";
@@ -53,5 +53,8 @@ $lang['reservationform'] = "Rezervačný formulár";
 
 $lang['exit'] = "Zavrieť";
 $lang['send'] = "Odoslať";
+
+$lang['note'] = "Poznámka";
+$lang['note_'] = "poznámka k ubytovaniu";
 
 
