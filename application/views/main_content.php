@@ -84,22 +84,18 @@
     </div>
 </div>
 
-<div class="navbar navbar-inverse navbar-static-top">
-    <div class="navbar-inner">
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav social">
-                <li>
-                    <a href="" class="FB_social"></a>
-                </li>
-                <li>
-                    <a href="" class="G_social"></a>
-                </li>
-                <li>
-                    <a href="" class="Limba_social"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="navbar navbar-inverse nowrap">
+    <ul class="nav navbar-nav social">
+        <li>
+            <a href="" class="FB_social"></a>
+        </li>
+        <li>
+            <a href="" class="G_social"></a>
+        </li>
+        <li>
+            <a href="" class="Limba_social"></a>
+        </li>
+    </ul>
 </div>
 
 <!-- ======= weather div -->
@@ -153,16 +149,6 @@
                 </div>
                 <form role="form" action="site/sent_mail" method="post">
                     <div class="modal-body">
-                        <!--<p>tu si rezervujte izbu</p>
-
-                        <p>Dátum od</p>
-
-                        <p>Dátum do</p>
-
-                        <p>Počet osôb</p>
-
-                        <p>kontakt</p>-->
-
                         <div class="form-group">
                             <label for="nameOf"><?php echo label('name', $this); ?></label>
                             <input type="text" class="form-control" id="nameOf" name="nameOf" placeholder="<?php echo label('name_', $this); ?>">

@@ -142,7 +142,7 @@ body {
 	}
 
 	/* The navbar becomes detached from the top, so we round the corners */
-	.navbar-wrapper .navbar {
+	.navbar-wrapper .navbarL {
 		border-bottom-left-radius: 30px;
 		border-bottom-right-radius: 30px;
 	}
@@ -155,7 +155,7 @@ body {
 	}
 
 	.featurette-heading {
-		font-size: 50px;
+    font-size: 50px;
 	}
 }
 
@@ -378,7 +378,7 @@ body {
 	background-image: url('../images/earth.png');
 }
 
-.languages: hover {
+.languages:hover {
 	width:48px;
 	height:48px;
 	background-image: url('../images/earth_hover.png');
