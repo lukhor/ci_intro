@@ -69,16 +69,25 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/img4.jpg" alt="First slide">
+                <img src="images/carousel/wide1-tiltshift.jpg" alt="image">
             </div>
             <div class="item">
-                <img src="images/img5.jpg" alt="Second slide">
+                <img src="images/carousel/wide2-tiltshift.jpg" alt="image">
             </div>
             <div class="item">
-                <img src="images/img6.jpg" alt="Third slide">
+                <img src="images/carousel/wide3-tiltshift.jpg" alt="image">
+            </div>
+            <div class="item">
+                <img src="images/carousel/wide1.jpg" alt="image">
+            </div>
+            <div class="item">
+                <img src="images/carousel/wide2.jpg" alt="image">
+            </div>
+            <div class="item">
+                <img src="images/carousel/wide3.jpg" alt="image">
             </div>
         </div>
     </div>

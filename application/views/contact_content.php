@@ -53,6 +53,7 @@
 
 <body>
 
+
 	<div class="navbar-wrapper">
 		<div class="container">
 			<div class="navbar navbar-inverse navbar-static-top">
@@ -198,9 +199,10 @@
 		<!-- /END THE FEATURETTES -->
 		<!--</div>--><!--uzavretie body divu v footri-->
 
-<div class="navbar-wrapper">
-    <div class="container">
-        <div class="navbar navbar-default navbar-static-top navbar-inverse">
+
+
+
+        <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -256,20 +258,17 @@
 
                                         <a data-toggle="popover" class="pocasie"> </a>
                                     </div>
-
                                 </div>
                                 <div class="pocasie_nazov2">
                                     <?php echo label('weather', $this); ?>
                                 </div>
                             </div>
                         </li>
-
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 <!-- Carousel
 ================================================== -->
@@ -286,8 +285,11 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <div class="navbar-wrapper">
 	<div class="container">
+
+
 <div class="navbar navbar-inverse navbar-static-top">
 
         <div class="navbar-collapse collapse">
@@ -339,5 +341,6 @@
             </div>
         </div>
     </div>
-    <!--</div>--><!--uzavretie body divu v footri-->
+</div>
+<!--</div>--><!--uzavretie body divu v footri-->
 

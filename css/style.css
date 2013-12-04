@@ -155,7 +155,7 @@ body {
 	}
 
 	.featurette-heading {
-		font-size: 50px;
+    font-size: 50px;
 	}
 }
 
@@ -190,6 +190,17 @@ body {
     height: 40px;
 }
 
+.fancybox img{
+    width: auto;
+    height: 222px;
+    margin: 5px;
+
+
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 20px #999;
+    border-radius: 2px;
+}
 /*KORNUT END*/
 
 /* MIKE */
@@ -369,7 +380,7 @@ body {
 	background-image: url('../images/earth.png');
 }
 
-.languages: hover {
+.languages:hover {
 	width:48px;
 	height:48px;
 	background-image: url('../images/earth_hover.png');

@@ -6,13 +6,14 @@
         $(".fancybox").fancybox({
             openEffect: 'elastic',
             closeEffect: 'elastic',
+            arrows: true,
 
             helpers: {
                 overlay: {
                     css: {
                         'background': 'rgba(0, 0, 0, 0.9)'
                     }
-                },
+                }/*,
                 title: {
                     type: 'outside'
                 },
@@ -20,7 +21,7 @@
                     width: 50,
                     height: 50
                 },
-                buttons: {}
+                buttons: {}*/
             }
         });
 
@@ -108,7 +109,7 @@
 
 <!-- Carousel
 ================================================== -->
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+<!--<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
     <div class="carousel-inner">
         <div class="item active">
             <img src="images/img4.jpg" alt="First slide">
@@ -138,27 +139,31 @@
             </ul>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
 
-<div class="container">
+
+<div class="container" style="margin-top: 60px">
     <!--CONTENT-->
     <div class="row">
-        <div class="col-lg-12">
-            <a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
-                <img src="images/img1.jpg" alt="" style="width: 200px"/>
-            </a>
-            <a class="fancybox" rel=gallery1" href="images/img2.jpg" title="izba číslo 2">
-                <img src="images/img2.jpg" style="width: 200px" alt=""/>
-            </a>
-            <a class="fancybox" rel="gallery1" href="images/img3.jpg" title="izba číslo 2">
-                <img src="images/img3.jpg" style="width: 200px" alt=""/>
-            </a>
-            <a class="fancybox" rel="gallery1" href="images/img4.jpg" title="izba číslo 2">
-                <img src="images/img3.jpg" style="width: 200px" alt=""/>
-            </a>
+        <div class="col-lg-12 text-center">
+
+            <?php
+                /*GENEROVANIE FOTOGALÉRIE*/
+                /*<a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
+                    <img src="images/img1.jpg" alt=""/>
+                </a>*/
+                for($i = 1;$i < 41;$i++){
+                    $image = "<a class='fancybox' rel='gallery1' href='images/nearby/".$i.".jpg' title='image'><img src='images/nearby/".$i."_t.jpg' alt='image'/></a>\n";
+                    echo $image;
+                }
+                for($i = 1;$i < 44;$i++){
+                    $image = "<a class='fancybox' rel='gallery1' href='images/accomodation/".$i.".jpg' title='image'><img src='images/accomodation/".$i."_t.jpg' alt='image'/></a>\n";
+                    echo $image;
+                }
+            ?>
         </div>
     </div>
 </div>
