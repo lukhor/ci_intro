@@ -52,6 +52,7 @@
 				html : "true",
 				content : function() {
 					return $('#weather').html();
+					
 				}
 			});
 		});

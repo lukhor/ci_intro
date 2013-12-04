@@ -1,58 +1,58 @@
 <script>
-    $(document).ready(function () {
-        /*GMAPS script*/
-        map = new GMaps({
-            div: '#map',
-            lat: 48.648146,
-            lng: 17.878564,
-            zoom: 10
-        });
+	$(document).ready(function() {
+		/*GMAPS script*/
+		map = new GMaps({
+			div : '#map',
+			lat : 48.648146,
+			lng : 17.878564,
+			zoom : 10
+		});
 
-        map.addMarker({
-            lat: 48.648146,
-            lng: 17.878564,
-            title: 'Penzión Modrovka',
-            click: function (e) {
-                alert('Penzion Modrovka');
-            }
-        });
+		map.addMarker({
+			lat : 48.648146,
+			lng : 17.878564,
+			title : 'Penzión Modrovka',
+			click : function(e) {
+				alert('Penzion Modrovka');
+			}
+		});
 
-        GMaps.geolocate({
-            success: function (position) {
-                map.drawRoute({
-                    origin: [position.coords.latitude, position.coords.longitude],
-                    destination: [48.648146, 17.878564],
-                    travelMode: 'driving',
-                    strokeColor: '#131540',
-                    strokeOpacity: 0.6,
-                    strokeWeight: 6
-                });
+		GMaps.geolocate({
+			success : function(position) {
+				map.drawRoute({
+					origin : [position.coords.latitude, position.coords.longitude],
+					destination : [48.648146, 17.878564],
+					travelMode : 'driving',
+					strokeColor : '#131540',
+					strokeOpacity : 0.6,
+					strokeWeight : 6
+				});
 
-                map.addMarker({
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude,
-                    title: 'start'
-                });
+				map.addMarker({
+					lat : position.coords.latitude,
+					lng : position.coords.longitude,
+					title : 'start'
+				});
 
-                map.fitZoom();
-            },
-            error: function (error) {
-                /*alert('Geolocation failed: ' + error.message);*/
-                map.setZoom(15);
-            },
-            not_supported: function () {
-                /* alert("Your browser does not support geolocation");*/
-                map.setZoom(15);
-            },
-            always: function () {
-                /* alert("Done!");*/
-            }
-        });
-    });
+				map.fitZoom();
+			},
+			error : function(error) {
+				/*alert('Geolocation failed: ' + error.message);*/
+				map.setZoom(15);
+			},
+			not_supported : function() {
+				/* alert("Your browser does not support geolocation");*/
+				map.setZoom(15);
+			},
+			always : function() {
+				/* alert("Done!");*/
+			}
+		});
+	}); 
 </script>
 
 <body>
-<<<<<<< HEAD
+
 	<div class="navbar-wrapper">
 		<div class="container">
 			<div class="navbar navbar-inverse navbar-static-top">
@@ -142,7 +142,7 @@
 		</div>
 	</div>
 	<div class="navbar navbar-inverse navbar-static-top">
-		<div class="navbar-inner">
+		<div class="container">
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav social">
 					<li>
@@ -228,16 +228,22 @@
                         <li class="active">
                             <a href="contact"> <?php echo label('contact', $this); ?></a>
                         </li>
-                        <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                        <li<?php
+							if ($this -> session -> userdata("lang") == "slovak") {echo " class='active'";
+							}
+						?>>
                             <?php
-                            $this->session->set_userdata("page", "contact");
-                            echo anchor("site/change/slovak","SK");
+							$this -> session -> set_userdata("page", "contact");
+							echo anchor("site/change/slovak", "SK");
                             ?>
                         </li>
-                        <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                        <li<?php
+							if ($this -> session -> userdata("lang") == "english") {echo " class='active'";
+							}
+						?>>
                             <?php
-                            $this->session->set_userdata("page", "contact");
-                            echo anchor("site/change/english", "ENG") ;
+							$this -> session -> set_userdata("page", "contact");
+							echo anchor("site/change/english", "ENG");
                             ?>
                         </li>
                         <li>
@@ -280,9 +286,10 @@
         </div>
     </div>
 </div>
-
+<div class="navbar-wrapper">
+	<div class="container">
 <div class="navbar navbar-inverse navbar-static-top">
-    <div class="navbar-inner">
+
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav social">
                 <li>
@@ -296,7 +303,10 @@
                 </li>
             </ul>
         </div>
-    </div>
+
+
+</div>
+</div>
 </div>
 
 <!-- ======= weather div -->
