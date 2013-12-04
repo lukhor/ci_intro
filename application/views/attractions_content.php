@@ -30,16 +30,22 @@
                             <li>
                                 <a href="contact"> <?php echo label('contact', $this); ?></a>
                             </li>
-                            <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                            <li<?php
+							if ($this -> session -> userdata("lang") == "slovak") {echo " class='active'";
+							}
+							?>>
                                 <?php
-                                $this->session->set_userdata("page", "attractions");
-                                echo anchor("site/change/slovak","SK");
+								$this -> session -> set_userdata("page", "attractions");
+								echo anchor("site/change/slovak", "SK");
                                 ?>
                             </li>
-                            <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                            <li<?php
+							if ($this -> session -> userdata("lang") == "english") {echo " class='active'";
+							}
+							?>>
                                 <?php
-                                $this->session->set_userdata("page", "attractions");
-                                echo anchor("site/change/english", "ENG") ;
+								$this -> session -> set_userdata("page", "attractions");
+								echo anchor("site/change/english", "ENG");
                                 ?>
                             </li>
                             <li>
@@ -72,13 +78,16 @@
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/img4.jpg" alt="First slide">
+                <img src="images/carousel/piestany-tiltshift.jpg" alt="First slide">
             </div>
             <div class="item">
-                <img src="images/img5.jpg" alt="Second slide">
+                <img src="images/carousel/inovec-tiltshift.jpg" alt="Second slide">
             </div>
             <div class="item">
-                <img src="images/img6.jpg" alt="Third slide">
+                <img src="images/carousel/furman-tiltshift.jpg" alt="Third slide">
+            </div>
+            <div class="item">
+                <img src="images/carousel/javorina-tiltshift.jpg" alt="Fourth slide">
             </div>
         </div>
     </div>
@@ -120,8 +129,8 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto"
-                     alt="Generic placeholder image">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/beckov_logo.png"
+                  >
             </div>
         </div>
 
@@ -129,8 +138,8 @@
 
         <div class="row featurette">
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto"
-                     alt="Generic placeholder image">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/kalnica_logo.png"
+                    >
             </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
@@ -157,87 +166,47 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto"
-                     alt="Generic placeholder image">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/tematin_logo.png">
+            </div>
+        </div>
+
+		<hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/piestany_logo2.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
+                </h2>
+
+                <p class="lead">
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                    commodo.
+                </p>
+            </div>
+        </div>
+
+		<hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+
+                <p class="lead">
+                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                    commodo.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/furman_logo.png">
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <div class="row">
-            <div class="col-lg-3">
-                <img class="img-circle" src="images/food.jpg" alt="Generic placeholder image" width="250">
-
-                <h2>Stravovanie</h2>
-
-                <p>
-                    Výber zo slovenskej kuchyne
-                </p>
-
-                <p>
-                    <a class="btn btn-default center-block" href="#" role="button">Ukáž viac &raquo;</a>
-                </p>
-
-                <img class="img-circle" src="images/accomodation.jpg" alt="Generic placeholder image" width="250">
-
-                <h2>Ubytovanie</h2>
-
-                <p>
-                    Krásne ubytovanie v prostredí Modrovka.
-                </p>
-
-                <p>
-                    <a class="btn btn-default" href="#" role="button">Ukáž viac &raquo;</a>
-                </p>
-
-                <img class="img-circle" src="images/reservation.jpg" alt="Generic placeholder image" width="250">
-
-                <h2>Rezervácia</h2>
-
-                <p>
-                    Formulár na predrezerváciu
-                </p>
-
-                <p>
-                    <a class="btn btn-default" href="#" role="button">Ukáž viac &raquo;</a>
-                </p>
-            </div>
-            <!-- /.col-lg-4 -->
-            <div class="col-lg-9">
-                <h1>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.</h1>
-
-                <p>
-                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.
-                </p>
-
-                <p>
-                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.
-                </p>
-
-                <p>
-                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.
-                </p>
-
-                <p>
-                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.
-                </p>
-
-                <p>
-                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-                    porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus.
-                </p>
-            </div>
-        </div>
     </div>
     <!--</div>--><!--uzavretie body divu v footri-->
