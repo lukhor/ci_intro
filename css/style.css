@@ -13,7 +13,7 @@
 
 /*KORNUT START*/
 body {
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	color: #5a5a5a;
 }
 /* CUSTOMIZE THE NAVBAR
@@ -26,8 +26,7 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 20;
-	
-	
+
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -192,7 +191,7 @@ body {
 
 .fancybox img{
     width: auto;
-    height: 222px;
+    height: 200px;
     margin: 5px;
 
 

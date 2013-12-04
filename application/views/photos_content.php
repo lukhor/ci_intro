@@ -149,7 +149,7 @@
     <!--CONTENT-->
     <div class="row">
         <div class="col-lg-12 text-center">
-
+            <h1>Okolie</h1>
             <?php
                 /*GENEROVANIE FOTOGALÉRIE*/
                 /*<a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
@@ -159,6 +159,10 @@
                     $image = "<a class='fancybox' rel='gallery1' href='images/nearby/".$i.".jpg' title='image'><img src='images/nearby/".$i."_t.jpg' alt='image'/></a>\n";
                     echo $image;
                 }
+
+            ?>
+            <h1>Ubytovanie</h1>
+            <?php
                 for($i = 1;$i < 44;$i++){
                     $image = "<a class='fancybox' rel='gallery1' href='images/accomodation/".$i.".jpg' title='image'><img src='images/accomodation/".$i."_t.jpg' alt='image'/></a>\n";
                     echo $image;
