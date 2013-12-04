@@ -122,14 +122,9 @@
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/img4.jpg" alt="First slide">
+            <img src="images/carousel/kontakt-tiltshift.jpg" alt="First slide">
         </div>
-        <div class="item">
-            <img src="images/img5.jpg" alt="Second slide">
-        </div>
-        <div class="item">
-            <img src="images/img6.jpg" alt="Third slide">
-        </div>
+       
     </div>
 </div>
 <div class="navbar navbar-inverse navbar-static-top">
