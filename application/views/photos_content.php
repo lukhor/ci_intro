@@ -144,7 +144,7 @@
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
 
-
+<div class="content">
 <div class="container" style="margin-top: 60px">
     <!--CONTENT-->
     <div class="row">
@@ -171,5 +171,5 @@
         </div>
     </div>
 </div>
-
+</div>
 <!--</div>--><!--uzavretie divu v footri-->

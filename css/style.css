@@ -2,7 +2,6 @@
 @import url("bootstrap.css");
 @import url("weather.css");
 
-
 .flex-next, .flex-prev {
 	line-height: 1;
 }
@@ -13,7 +12,7 @@
 
 /*KORNUT START*/
 body {
-	padding-bottom: 0px;
+
 	color: #5a5a5a;
 }
 /* CUSTOMIZE THE NAVBAR
@@ -26,7 +25,6 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 20;
-
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -38,15 +36,15 @@ body {
 .navbar-wrapper .navbar {
 	padding-left: 15px;
 	padding-right: 15px;
-	
 }
 
 .navbar-collapse .nav {
+	/*color: #575454;*/
 	color: #575454;
-	
 	font-family: "Roboto";
 	font-size: 18px;
 	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.25);
 }
 
 .navbar-header {
@@ -154,7 +152,7 @@ body {
 	}
 
 	.featurette-heading {
-    font-size: 50px;
+		font-size: 50px;
 	}
 }
 
@@ -165,40 +163,38 @@ body {
 }
 
 .popin {
-    background: #fff;
-    padding: 15px;
-    box-shadow: 0 0 20px #999;
-    border-radius: 2px;
-    width: 100%;
-    margin: 0 auto;
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0 0 20px #999;
+	border-radius: 2px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .sk {
-    background-image: url('../images/sk.png');
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 40px;
-    margin-top: 7px;
-    background-size:80% 80% ;
+	background-image: url('../images/sk.png');
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 40px;
+	margin-top: 7px;
+	background-size: 80% 80%;
 }
 
 .eng {
-    background-image: url('../images/eng.png');
-    background-repeat: no-repeat;
-    width: 60px;
-    height: 40px;
+	background-image: url('../images/eng.png');
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 40px;
 }
 
-.fancybox img{
-    width: auto;
-    height: 200px;
-    margin: 5px;
-
-
-    background: #fff;
-    padding: 15px;
-    box-shadow: 0 0 20px #999;
-    border-radius: 2px;
+.fancybox img {
+	width: auto;
+	height: 200px;
+	margin: 5px;
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0 0 20px #999;
+	border-radius: 2px;
 }
 /*KORNUT END*/
 
@@ -280,13 +276,12 @@ body {
 	background-image: url('../images/pocasie_hover.png');
 	position: absolute;
 	margin: auto;
-
 }
 .pocasie, .pocasie:hover {
 
 	-webkit-transition-property: background color;
 	-webkit-transition-duration: 1s;
-	-webkit-transition-timing-function: ease-in-out;	
+	-webkit-transition-timing-function: ease-in-out;
 	-moz-transition-property: background color;
 	-moz-transition-duration: 1s;
 	-moz-transition-timing-function: ease-in-out;
@@ -296,7 +291,6 @@ body {
 	-ms-transition-property: background color;
 	-ms-transition-duration: 1s;
 	-ms-transition-timing-function: ease-in-out;
-
 	transition-property: background color;
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
@@ -310,79 +304,122 @@ body {
 .logo {
 	width: 130px;
 	height: 50px;
-	background-image: url('../images/logo_white2.png');
-	margin-right:10px;
+	background-image: url('../images/logo_mini_black3.png');
+	margin-right: 10px;
 	float: left;
-	margin-left:30px;
-	margin-top:2px;
+	margin-left: 30px;
+	margin-top: 2px;
 }
 
 .social {
-	float:right;
+	float: right;
 }
 
 .FB_social {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Facebook.png');
-	margin-right:10px;
-	margin-top: 5px; 
+	margin-right: 10px;
+	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .FB_social:hover {
-	 
-	width:48px;
-	height:48px;
+
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Facebook_hover.png');
-	transition-duration: 1s; 
+	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 
-
 .G_social {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Google-Plus.png');
 	margin-right: 10px;
-	margin-top: 5px; 
+	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .G_social:hover {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Google-Plus_hover.png');
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 
 .Limba_social {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Linkedin.png');
-	margin-right:10px;
-	margin-top: 5px; 
+	margin-right: 10px;
+	margin-top: 5px;
 	margin-bottom: 5px;
 }
 .Limba_social:hover {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/Linkedin_hover.png');
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 
-.languages{
-	width:48px;
-	height:48px;
+.languages {
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/earth.png');
 }
 
 .languages:hover {
-	width:48px;
-	height:48px;
+	width: 48px;
+	height: 48px;
 	background-image: url('../images/earth_hover.png');
 }
 
+.content {
+	position: relative;
+	background: #2a2a2a;
+	background-image: url('../images/bg2.jpg');
+	display: block;
+	margin: 0 auto;
+}
 
+/* bootstrap modification */
+
+.navbar-inverse {
+	background-color: #222222;
+	background: transparent;
+	border-color: #ADAACA;
+}
+
+.navbar-static-top {
+	z-index: 1000;
+	border-width: 0 0 2px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #656469;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #28263F;
+}
+
+.divider1 {
+	
+
+	min-height: 100%;
+	height: 50px;
+	margin: 0 auto;
+	width:auto;
+	position:relative;
+	background-image: url('../images/divider3.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /* For WebKit*/
+	-moz-background-size: cover; /* Mozilla*/
+	-o-background-size: cover; /* Opera*/
+	background-size: cover;
+}

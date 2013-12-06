@@ -2,7 +2,7 @@
     <!--NAVBAR-->
     <div class="navbar-wrapper">
         <div class="container">
-            <div class="navbar navbar-default navbar-static-top navbar-inverse">
+            <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-
+ <!-- 
     <div class="navbar navbar-inverse navbar-static-top">
         <div class="navbar-inner">
             <div class="navbar-collapse collapse">
@@ -113,9 +113,12 @@
     <!-- ======= weather div -->
     <div id="weather" class="weatherFeed" style="display: none"></div>
 
+<div class="content">
+	        <div class="divider1">
+        	</div>
     <div class="container">
         <!-- START THE FEATURETTES -->
-        <hr class="featurette-divider">
+
 
         <div class="row featurette">
             <div class="col-md-7">
@@ -208,5 +211,6 @@
 
         <hr class="featurette-divider">
 
+    </div>
     </div>
     <!--</div>--><!--uzavretie body divu v footri-->

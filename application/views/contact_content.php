@@ -122,11 +122,13 @@
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/carousel/kontakt-tiltshift.jpg" alt="First slide">
+            <img src="images/carousel/kontakt-tiltshift2.jpg" alt="First slide">
         </div>
        
     </div>
 </div>
+
+<!--
 <div class="navbar navbar-inverse navbar-static-top">
     <div class="navbar-inner">
         <div class="navbar-collapse collapse">
@@ -147,7 +149,7 @@
 
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
-
+<div class="content">
 <div class="container">
     <div class="row">
         <div class="col-lg-6 text-center">
@@ -178,3 +180,4 @@
 </div>
 <!--</div>--><!--uzavretie body divu v footri-->
 
+</div>
