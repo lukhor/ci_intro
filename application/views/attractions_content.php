@@ -30,6 +30,24 @@
                             <li>
                                 <a href="contact"> <?php echo label('contact', $this); ?></a>
                             </li>
+                        
+                            <li>
+                                <div class="pocasie_komplet">
+                                    <div class="pocasie_nazov1">
+                                        <?php echo label('actual', $this); ?>
+                                    </div>
+                                    <div class="weather-button">
+                                        <div class="weather-toggle">
+
+                                            <a data-toggle="popover" class="pocasie"> </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="pocasie_nazov2">
+                                        <?php echo label('weather', $this); ?>
+                                    </div>
+                                </div>
+                            </li>
                             <li<?php
 							if ($this -> session -> userdata("lang") == "slovak") {echo " class='active'";
 							}
@@ -47,23 +65,6 @@
 								$this -> session -> set_userdata("page", "attractions");
 								echo anchor("site/change/english", "ENG");
                                 ?>
-                            </li>
-                            <li>
-                                <div class="pocasie_komplet">
-                                    <div class="pocasie_nazov1">
-                                        <?php echo label('actual', $this); ?>
-                                    </div>
-                                    <div class="weather-button">
-                                        <div class="weather-toggle">
-
-                                            <a data-toggle="popover" class="pocasie"> </a>
-                                        </div>
-
-                                    </div>
-                                    <div class="pocasie_nazov2">
-                                        <?php echo label('weather', $this); ?>
-                                    </div>
-                                </div>
                             </li>
 
                         </ul>
@@ -114,21 +115,25 @@
     <div id="weather" class="weatherFeed" style="display: none"></div>
 
 <div class="content">
+	
+	<!--divider
 	        <div class="divider1">
         	</div>
+     -->
+        	<hr class="style-five">
     <div class="container">
         <!-- START THE FEATURETTES -->
 
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span
-                        class="text-muted">It'll blow your mind.</span></h2>
+                <h2 class="featurette-heading">Hrad Beckov. <span
+                        class="text-muted">Národná kultúrna pamiatka Slovenska. </span></h2>
 
                 <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.
+                    Bol hradom kráľov, mocných veľmožov a rytierov, hradom, ktorý odolal Tatárom aj Turkom. 
+                    Jeho minulosť je opradená povesťami, ktoré umocňujú romantiku jeho dnešnej podoby. 
+                    V jeho blízkosti môžete taktiež navštíviť: cyklotrasy, reštauráciu Kúria Beckov alebo kolkáreň..
                 </p>
             </div>
             <div class="col-md-5">
@@ -137,7 +142,7 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-5">
@@ -145,27 +150,26 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
+                <h2 class="featurette-heading">Kálnica. <span class="text-muted">Raj pre športovcov.</span>
                 </h2>
 
                 <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.
+                    V lete je to bike park Kalnica, kde sa stretávajú tí najväčší nadšenci downhillu. 
+                    Pokiaľ vlastníte takéto monštrum, táto lokalita je ako stvorená pre vás. 
+                    Naopak v zime dostáva zjazdovka biely nádych a mení sa tak na lyžiarske stredisko s množstvom akcíí, ktoré čakajú práve na vás..
                 </p>
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <h2 class="featurette-heading">Tematínsky hrad. <span class="text-muted">Jeden z najkrajších výhľadov.</span></h2>
 
                 <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.
+                    Zrúcanina hradu na Západnom Slovensku v pohorí Považský Inovec. Od jeho vzniku v 13. storočí vystriedal mnoho majiteľov. 
+                    Začiatkom 18. storočia bol ťažko poškodený a pustol. V okolí chránené územie Tematínske vrchy.
                 </p>
             </div>
             <div class="col-md-5">
@@ -173,7 +177,7 @@
             </div>
         </div>
 
-		<hr class="featurette-divider">
+		<hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-5">
@@ -181,27 +185,27 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span>
+                <h2 class="featurette-heading">Piešťany. <span class="text-muted">Kúpeľné mesto na Slovensku.</span>
                 </h2>
 
                 <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.
+                    Mesto Piešťany netreba zvlášť predstavovať. Od obce Modrovka je vzdialené 10 km. 
+                    Je tam veľa možností kultúrneho a športového využitia a kúpele poskytujú relax a oddych. 
+                    Procedúry sú poskytované aj ambulantne, takže je tu možnosť dochádzania. Je to cca 8 km. 
+                    V období kúpeľnej sezóny sú poriadané rôzne akcie, ktoré uspokoja aj tých najnáročnejších.
                 </p>
             </div>
         </div>
 
-		<hr class="featurette-divider">
+		<hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <h2 class="featurette-heading">Furman. <span class="text-muted">Reštaurácia v prírode.</span></h2>
 
                 <p class="lead">
-                    Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-                    commodo.
+                    Vynikajúca kuchyňa a príjemné posedenie v prírode obklopené divou zverou (jelene, daniele, srnky, lane). 
+                    Pre deti je pripravené detské ihrisko.
                 </p>
             </div>
             <div class="col-md-5">
@@ -209,8 +213,25 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="style-two">
 
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/turistika_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Turistika. <span class="text-muted">Hory všade naokolo.</span>
+                </h2>
+
+                <p class="lead">
+                    Pokiaľ patríte medzi turistických nadšencov a vyznávate nerušený oddych v prírode, tak v našom okolí sa určite nebude nudiť. 
+                    V blízkosti sa nachádzajú známe Tematínske vrchy, Považský Inovec a na druhej strane rieky Váhu Javorina.
+                </p>
+            </div>
+        </div>
+<hr class="featurette-divider">
     </div>
     </div>
+      <hr class="style-four">
     <!--</div>--><!--uzavretie body divu v footri-->

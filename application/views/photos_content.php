@@ -72,18 +72,7 @@
                         <li>
                             <a href="contact"> <?php echo label('contact', $this); ?></a>
                         </li>
-                        <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
-                            <?php
-                            $this->session->set_userdata("page", "photos");
-                            echo anchor("site/change/slovak","SK");
-                            ?>
-                        </li>
-                        <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
-                            <?php
-                            $this->session->set_userdata("page", "photos");
-                            echo anchor("site/change/english", "ENG") ;
-                            ?>
-                        </li>
+                       
                         <li>
                             <div class="pocasie_komplet">
                                 <div class="pocasie_nazov1">
@@ -99,6 +88,18 @@
                                     <?php echo label('weather', $this); ?>
                                 </div>
                             </div>
+                        </li>
+                         <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                            <?php
+                            $this->session->set_userdata("page", "photos");
+                            echo anchor("site/change/slovak","SK");
+                            ?>
+                        </li>
+                        <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                            <?php
+                            $this->session->set_userdata("page", "photos");
+                            echo anchor("site/change/english", "ENG") ;
+                            ?>
                         </li>
                     </ul>
                 </div>
@@ -145,6 +146,7 @@
 <div id="weather" class="weatherFeed" style="display: none"></div>
 
 <div class="content">
+	 <hr class="style-four">
 <div class="container" style="margin-top: 60px">
     <!--CONTENT-->
     <div class="row">
@@ -172,4 +174,5 @@
     </div>
 </div>
 </div>
+  <hr class="style-four">
 <!--</div>--><!--uzavretie divu v footri-->

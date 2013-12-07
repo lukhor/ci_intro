@@ -30,22 +30,7 @@
                         <li>
                             <a href="contact"> <?php echo label('contact', $this); ?></a>
                         </li>
-                        <li<?php if ($this->session->userdata("lang") == "slovak") {
-                            echo " class='active'";
-                        } ?>>
-                            <?php
-                            $this->session->set_userdata("page", "home");
-                            echo anchor("site/change/slovak", "SK");
-                            ?>
-                        </li>
-                        <li<?php if ($this->session->userdata("lang") == "english") {
-                            echo " class='active'";
-                        } ?>>
-                            <?php
-                            $this->session->set_userdata("page", "home");
-                            echo anchor("site/change/english", "ENG");
-                            ?>
-                        </li>
+                       
                         <li>
                             <div class="pocasie_komplet">
                                 <div class="pocasie_nazov1">
@@ -61,6 +46,24 @@
                                 </div>
                             </div>
                         </li>
+                         <li<?php if ($this->session->userdata("lang") == "slovak") {
+                            echo " class='active'";
+                        } 
+                        
+                        ?>>
+                            <?php
+                            $this->session->set_userdata("page", "home");
+                            echo anchor("site/change/slovak", "SK");
+                            ?>
+                        </li>
+                        <li<?php if ($this->session->userdata("lang") == "english") {
+                            echo " class='active'";
+                        } ?>>
+                            <?php
+                            $this->session->set_userdata("page", "home");
+                            echo anchor("site/change/english", "ENG");
+                            ?>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -72,24 +75,16 @@
 ================================================== -->
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
     <div class="carousel-inner">
+
+        <div class="item">
+            <img src="images/carousel/XXwide7-tiltshift.jpg" alt="image">
+        </div>
         <div class="item active">
-            <img src="images/carousel/wide4-tiltshift.jpg" alt="image">
-        </div>
-        <div class="item">
-            <img src="images/carousel/wide5-tiltshift.jpg" alt="image">
-        </div>
-        <div class="item">
-            <img src="images/carousel/wide6-tiltshift.jpg" alt="image">
-        </div>
-        <div class="item">
-            <img src="images/carousel/wide7-tiltshift.jpg" alt="image">
-        </div>
-        <div class="item">
-            <img src="images/carousel/wide8-tiltshift.jpg" alt="image">
+            <img src="images/carousel/Xwide8-tiltshift.jpg" alt="image">
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="navbar navbar-inverse nowrap">
     <ul class="nav navbar-nav social">
         <li>
@@ -106,7 +101,8 @@
 
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
-
+<div class="content">
+	 <hr class="style-five">
 <div class="container">
     <!--<li><a href="contact"><?php /*echo label('accomodation', $this); */?></a></li>
         <li><?php /*echo anchor("site/change/slovak", "SK") */?></li>
@@ -199,4 +195,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+     <hr class="featurette-divider">
 </div>
+</div>
+  <hr class="style-four">

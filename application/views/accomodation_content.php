@@ -30,18 +30,7 @@
                             <li>
                                 <a href="contact"> <?php echo label('contact', $this); ?></a>
                             </li>
-                            <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
-                                <?php
-                                $this->session->set_userdata("page", "accomodation");
-                                echo anchor("site/change/slovak","SK");
-                                ?>
-                            </li>
-                            <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
-                                <?php
-                                $this->session->set_userdata("page", "accomodation");
-                                echo anchor("site/change/english", "ENG") ;
-                                ?>
-                            </li>
+                            
                             <li>
                                 <div class="pocasie_komplet">
                                     <div class="pocasie_nazov1">
@@ -59,6 +48,18 @@
                                     </div>
                                 </div>
                             </li>
+                            <li<?php if($this->session->userdata("lang")=="slovak"){echo " class='active'";}?>>
+                                <?php
+                                $this->session->set_userdata("page", "accomodation");
+                                echo anchor("site/change/slovak","SK");
+                                ?>
+                            </li>
+                            <li<?php if($this->session->userdata("lang")=="english"){echo " class='active'";}?>>
+                                <?php
+                                $this->session->set_userdata("page", "accomodation");
+                                echo anchor("site/change/english", "ENG") ;
+                                ?>
+                            </li>
 
                         </ul>
                     </div>
@@ -69,29 +70,20 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
         <div class="carousel-inner">
             <div class="item active">
-                <img src="images/carousel/wide1-tiltshift.jpg" alt="image">
+                <img src="images/carousel/Xwide1-tiltshift.jpg" alt="image">
             </div>
             <div class="item">
-                <img src="images/carousel/wide2-tiltshift.jpg" alt="image">
+                <img src="images/carousel/Xwide2-tiltshift.jpg" alt="image">
             </div>
             <div class="item">
-                <img src="images/carousel/wide3-tiltshift.jpg" alt="image">
-            </div>
-            <div class="item">
-                <img src="images/carousel/wide1.jpg" alt="image">
-            </div>
-            <div class="item">
-                <img src="images/carousel/wide2.jpg" alt="image">
-            </div>
-            <div class="item">
-                <img src="images/carousel/wide3.jpg" alt="image">
+                <img src="images/carousel/Xwide3-tiltshift.jpg" alt="image">
             </div>
         </div>
     </div>
-
+<!-- 
     <div class="navbar navbar-inverse navbar-static-top">
         <div class="navbar-inner">
             <div class="navbar-collapse collapse">
@@ -112,36 +104,91 @@
 
     <!-- ======= weather div -->
     <div id="weather" class="weatherFeed" style="display: none"></div>
-
+<div class="content">
+	
+        	<hr class="style-five">
     <div class="container">
         <!--CONTENT-->
-        <div class="row">
-            <div class="col-md-3">
-                <ul class="nav nav-list">
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                    <div class="row">
-                        <h3>How we started ?</h3>
-                    </div>
-                </ul>
+    <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Ubytovacie priestory</h2>
+
+                <p class="lead">
+                    K dispozícii sú 4 izby o max. kapacite 11 osôb. Každá izba je vybavená vlastnou TV.<br>
+                   <br><b> Na výber sú izby:</b><br>
+                    	2x - 2 posteľové<br>
+                    	1x - 3 posteľové<br>
+                    	1x - 4 posteľové<br>
+                </p>
             </div>
-            <div class="col-md-9">
-                <h3>How we started ?</h3>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                <h3>How do we market?</h3>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/ubytovanie_logo.png"
+                  >
             </div>
         </div>
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/social_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Sociálne zariadenie
+                </h2>
+
+                <p class="lead">
+                    K dispozícii sú dve spoločné sociálne zariadenia, z ktorých je jedno kompletne vybavené vrátane dvoch sprchových kútov a jednoho WC. 
+                    Druhé zariadenie obsahuje samotnú toaletu s umývadlom.
+                </p>
+            </div>
+        </div>
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Stravovanie </h2>
+
+                <p class="lead">
+                    Ubytovanie obsahuje kompletne zariadenú kuchyňu, s možnosťou vlastného stravovania. 
+                    Ak nemáte čas na vlastnú prípravu jedál, 100m od ubytovania je reštaurácia s výbornou pizzou :)<br><br>
+                    <b>Vybavenie:</b><br>
+                    - chladnička<br>
+                    - mikrovlnka<br>
+                    - plynový sporák<br>
+                    - rýchlovarná kanvica<br><br>
+                    
+                    
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/stravovanie_logo.png">
+            </div>
+        </div>
+
+		<hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/parking_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Parking 
+                </h2>
+
+                <p class="lead">
+                    Možnosť parkovania priamo vo dvore.
+                </p>
+            </div>
+        </div>
+
+		<hr class="featurette-divider">
+
+       
     </div>
+    </div>
+    <hr class="style-four">
 <!--</div>--><!--uzavretie body divu v footri-->
