@@ -146,12 +146,13 @@
 <div id="weather" class="weatherFeed" style="display: none"></div>
 
 <div class="content">
-	 <hr class="style-four">
-<div class="container" style="margin-top: 60px">
+	 
+<div class="container" >
     <!--CONTENT-->
     <div class="row">
         <div class="col-lg-12 text-center">
-        	<hr class="featurette-divider">
+        	
+        	<hr class="featurette-divider2">
             <h1>Exteriér</h1>
             <hr class="style-down">
             <?php
