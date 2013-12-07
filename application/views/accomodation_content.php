@@ -109,6 +109,7 @@
         	<hr class="style-five">
     <div class="container">
         <!--CONTENT-->
+        
     <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Ubytovacie priestory</h2>

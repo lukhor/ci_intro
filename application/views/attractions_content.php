@@ -124,7 +124,23 @@
     <div class="container">
         <!-- START THE FEATURETTES -->
 
+<div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/bezovec_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Bezovec. <span class="text-muted">Športové vyžitie, hlavne v zime.</span>
+                </h2>
 
+                <p class="lead">
+                    Rekreačné stredisko Bezovec je rajom pre lyžiarov. Sú tu vybudované 4 vleky s umelým zasnežovaním a osvetlením na nočné lyžovanie. 
+                    Pre tých najmenších je tu detský vlek s možnosťou výučby lyžovania vlastným inštruktorom.
+                </p>
+            </div>
+        </div>
+
+        <hr class="style-two">
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Hrad Beckov. <span

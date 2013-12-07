@@ -151,7 +151,9 @@
     <!--CONTENT-->
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h1>Okolie</h1>
+        	<hr class="featurette-divider">
+            <h1>Exteriér</h1>
+            <hr class="style-down">
             <?php
                 /*GENEROVANIE FOTOGALÉRIE*/
                 /*<a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
@@ -163,7 +165,9 @@
                 }
 
             ?>
-            <h1>Ubytovanie</h1>
+            <hr class="featurette-divider">
+            <h1>Interiér</h1>
+            <hr class="style-down">
             <?php
                 for($i = 1;$i < 44;$i++){
                     $image = "<a class='fancybox' rel='gallery1' href='images/accomodation/".$i.".jpg' title='image'><img src='images/accomodation/".$i."_t.jpg' alt='image'/></a>\n";
@@ -172,6 +176,7 @@
             ?>
         </div>
     </div>
+    <hr class="featurette-divider">
 </div>
 </div>
   <hr class="style-four">
