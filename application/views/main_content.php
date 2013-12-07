@@ -46,22 +46,24 @@
                                 </div>
                             </div>
                         </li>
-                         <li<?php if ($this->session->userdata("lang") == "slovak") {
-                            echo " class='active'";
-                        } 
-                        
+                         <li<?php
+							if ($this -> session -> userdata("lang") == "slovak") {
+								echo " class='active'";
+							}
                         ?>>
                             <?php
-                            $this->session->set_userdata("page", "home");
-                            echo anchor("site/change/slovak", "SK");
+							$this -> session -> set_userdata("page", "home");
+							echo anchor("site/change/slovak", "SK");
                             ?>
                         </li>
-                        <li<?php if ($this->session->userdata("lang") == "english") {
-                            echo " class='active'";
-                        } ?>>
+                        <li<?php
+							if ($this -> session -> userdata("lang") == "english") {
+								echo " class='active'";
+							}
+ ?>>
                             <?php
-                            $this->session->set_userdata("page", "home");
-                            echo anchor("site/change/english", "ENG");
+							$this -> session -> set_userdata("page", "home");
+							echo anchor("site/change/english", "ENG");
                             ?>
                         </li>
                     </ul>
@@ -109,7 +111,7 @@
         <li><?php /*echo anchor("site/change/english", "ENG") */?></li>-->
 
     <!--CONTENT-->
-
+<!--
     <div class="row">
         <div class="col-lg-12">
 
@@ -137,6 +139,28 @@
     </div>
     <!--</div>--><!--uzavretie divu v footri-->
     <!-- Button trigger modal -->
+    
+   
+           
+            <div class="col-md-7">
+                <h2>Ubytovanie Modrovka. <span class="text-muted"></span>
+                </h2>
+
+                <p class="lead2">
+                    "Ubytovanie je vhodné pre široké spektrum zákazníkov a každý tu nájde to, čo práve potrebuje."<br>
+					
+
+                </p>
+                 <p class="lead3">
+                    
+					Na Vašu návštevu sa teší Marta Masárová.
+
+                </p>
+            </div>
+        
+        
+        <div class="rychly_kontakt">
+        </div>
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
         <?php echo label('reservation', $this); ?>
     </button>
@@ -195,7 +219,7 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
-     <hr class="featurette-divider">
+  <hr class="featurette-divider">
 </div>
 </div>
   <hr class="style-four">

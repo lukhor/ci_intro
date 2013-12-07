@@ -154,14 +154,12 @@
 
                 <p class="lead">
                     Ubytovanie obsahuje kompletne zariadenú kuchyňu, s možnosťou vlastného stravovania. 
-                    Ak nemáte čas na vlastnú prípravu jedál, 100m od ubytovania je reštaurácia s výbornou pizzou :)<br><br>
+                    Ak nemáte čas na vlastnú prípravu jedál, 100m od ubytovania je reštaurácia, kde sa dá dobre a lacno stravovať. 
+                    Každý deň sa tam podáva menu a robia aj veľmi dobrú pizzu a samozrejme aj jedlá na objednávku. 
+                    Otvorené je denne do 22:00 hod. Neďaleko sú aj dva obchody otvorené od 6:00 hod.<br><br>
                     <b>Vybavenie:</b><br>
-                    - chladnička<br>
-                    - mikrovlnka<br>
-                    - plynový sporák<br>
-                    - rýchlovarná kanvica<br><br>
-                    
-                    
+                    - chladnička, mikrovlnka, plynový sporák, rýchlovarná kanvica<br>
+    
                 </p>
             </div>
             <div class="col-md-5">
