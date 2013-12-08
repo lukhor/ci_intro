@@ -4,8 +4,8 @@
     $(document).ready(function () {
         /*FANCY SCRIPT*/
         $(".fancybox").fancybox({
-            openEffect: 'elastic',
-            closeEffect: 'elastic',
+            openEffect: 'none',
+            closeEffect: 'none',
             arrows: true,
 
             helpers: {
