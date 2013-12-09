@@ -105,8 +105,15 @@
     <!-- ======= weather div -->
     <div id="weather" class="weatherFeed" style="display: none"></div>
 <div class="content">
-	
+
         	<hr class="style-five">
+        				<div>
+        	    	    	<div class="price">
+        	    	    		
+        	    	    	</div>	
+        	    	    	<div class="price2">
+        	    	    </div>
+        	    	    	</div>	
     <div class="container">
         <!--CONTENT-->
         

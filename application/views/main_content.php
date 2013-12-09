@@ -104,8 +104,16 @@
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
 <div class="content">
-	 <hr class="style-five">
+	
+	 <hr class="style-five"><br />
+<div>
+        	    	    	<div class="price3">
+        	    	    		
+        	    	    	</div>	
+        	    	    	<div class="price4">
+        	    	    </div>
 <div class="container">
+	
     <!--<li><a href="contact"><?php /*echo label('accomodation', $this); */?></a></li>
         <li><?php /*echo anchor("site/change/slovak", "SK") */?></li>
         <li><?php /*echo anchor("site/change/english", "ENG") */?></li>-->

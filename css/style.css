@@ -512,3 +512,44 @@ hr.style-down {
 	height:200px;
 }
 
+.price {
+	width:202px;
+	height:121px;
+	float:right;
+	background-image: url('../images/label.png');
+	margin-top:-56px;
+	
+
+}
+
+.price2 {
+	width:204px;
+	height:121px;
+	float:right;
+	background-image: url('../images/label2.png');
+	margin-top:-56px;
+	margin-right:-70px;
+	
+
+}
+
+.price3 {
+	width:202px;
+	height:121px;
+	float:right;
+	background-image: url('../images/label.png');
+	margin-top:-76px;
+	
+
+}
+
+.price4 {
+	width:204px;
+	height:121px;
+	float:right;
+	background-image: url('../images/label2.png');
+	margin-top:-76px;
+	margin-right:-70px;
+	
+
+}

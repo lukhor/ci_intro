@@ -22,7 +22,7 @@
     <div class="col-lg-12">
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Modrovka<li>
+          <li><b>Modrovka</b><li>
           <li><a href="#">O nás</a></li>
           <li><a href="#">Ubytovanie</a></li>
           <li><a href="#">Fotogaléria</a></li>
@@ -32,7 +32,7 @@
       </div>
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Šport v okolí<li>
+          <li><b>Šport v okolí</b><li>
           <li><a href="#">Bezovec</a></li>
           <li><a href="#">Kálnica</a></li>
           <li><a href="#">Turistika</a></li>
@@ -41,7 +41,7 @@
       </div>
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Kultúra v okolí<li>
+          <li><b>Kultúra v okolí</b><li>
           <li><a href="#">Hrad Beckov</a></li>
           <li><a href="#">Reštaurácia Furman</a></li>
           <li><a href="#">Tematínsky hrad</a></li>
@@ -49,10 +49,11 @@
       </div>
         <div class="col-md-3">
             <ul class="list-unstyled">
-                <li><b>Kontakt</b><li>
-                <li><i>Telefon</i><li>
-                <li><i>Email</i><li>
-                <li><i>Adresa</i><li>
+                
+                <li><i><b>Telefon:</b> 033/7785155<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+421904316055</i><li>
+                <li><i><b>Email:</b> macka.masarova@gmail.com</i><li>
+                <li><i><b>Adresa:</b> Modrovka 54<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                					  91635<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ul.Modrová</i><li>
             </ul>
         </div>
     </div>
