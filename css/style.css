@@ -228,7 +228,6 @@ body {
 	filter: alpha(opacity=0);
 }
 .carousel.carousel-fade .next, .carousel.carousel-fade .prev {
-
 	left: 0;
 	z-index: 1;
 }
