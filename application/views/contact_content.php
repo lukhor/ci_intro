@@ -163,13 +163,14 @@
         <div class="col-lg-6 text-center">
             <h1><?php echo label('phone', $this); ?></h1>
 
-            <h4>0904123456</h4>
+            <h4>tel.č.: 033/7785155</h4>
+            <h4>mob.č.: 0904/316055</h4>
 
             <h1><?php echo label('address', $this); ?></h1>
 
-            <h4>Modrovka</h4>
-            <h4>Ulica</h4>
-            <h4>PSC</h4>
+            <h4>Masárová Marta</h4>
+            <h4>Modrovka 54</h4>
+            <h4>916 35 Modrová</h4>
 
             <h1><?php echo label('coordinate', $this); ?></h1>
 

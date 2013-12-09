@@ -153,7 +153,7 @@
         <div class="col-lg-12 text-center">
         	
         	<hr class="featurette-divider2">
-            <h1>Exteriér</h1>
+            <h1 class="posundole">Exteriér</h1>
             <hr class="style-down">
             <?php
                 /*GENEROVANIE FOTOGALÉRIE*/

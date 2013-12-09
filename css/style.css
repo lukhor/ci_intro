@@ -161,7 +161,7 @@ body {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 	.featurette-heading {
 		margin-top: 120px;
 	}
@@ -201,6 +201,13 @@ body {
 	box-shadow: 0 0 15px #999;
 	border-radius: 8px;
 }
+
+@media (max-width: 991px) {
+    .posundole {
+        margin-top: 70px;
+    }
+}
+
 /*KORNUT END*/
 
 /* MIKE */

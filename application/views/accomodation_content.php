@@ -116,10 +116,14 @@
 
                 <p class="lead">
                     K dispozícii sú 4 izby o max. kapacite 11 osôb. Každá izba je vybavená vlastnou TV.<br>
-                   <br><b> Na výber sú izby:</b><br>
+                   <br><b>Na výber sú izby:</b><br>
                     	2x - 2 posteľové<br>
                     	1x - 3 posteľové<br>
                     	1x - 4 posteľové<br>
+
+                    <br><b>Cenník</b><br>
+                   1-3 dní = 10€/deň<br>
+                   nad 3 dni = cena dohodou<br>
                 </p>
             </div>
             <div class="col-md-5">

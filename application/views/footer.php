@@ -61,12 +61,12 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="col-md-8">
-        <a href="#">Terms of Service</a>    
+        <!--<a href="#">Terms of Service</a>
         <a href="#">Privacy</a>    
-        <a href="#">Security</a>
+        <a href="#">Security</a>-->
       </div>
       <div class="col-md-4">
-        <p class="muted pull-right">© 2013</p>
+        <p class="muted pull-right">© 2013 Created by <a href="mailto:michal.trunek@gmail.com">T</a> + <a href="mailto:lukhor@gmail.com">H</a></p>
       </div>
     </div>
   </div>
