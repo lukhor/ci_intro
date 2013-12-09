@@ -160,7 +160,7 @@
                 /*<a class="fancybox" rel="gallery1" href="images/img1.jpg" title="izba číslo 1">
                     <img src="images/img1.jpg" alt=""/>
                 </a>*/
-                for($i = 1;$i < 41;$i++){
+                for($i = 1;$i < 21;$i++){
                     $image = "<a class='fancybox' rel='gallery1' href='images/nearby/".$i.".jpg' title='image'><img src='images/nearby/".$i."_t.jpg' alt='image'/></a>\n";
                     echo $image;
                 }
@@ -170,7 +170,7 @@
             <h1>Interiér</h1>
             <hr class="style-down">
             <?php
-                for($i = 1;$i < 44;$i++){
+                for($i = 1;$i < 21;$i++){
                     $image = "<a class='fancybox' rel='gallery1' href='images/accomodation/".$i.".jpg' title='image'><img src='images/accomodation/".$i."_t.jpg' alt='image'/></a>\n";
                     echo $image;
                 }
