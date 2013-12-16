@@ -154,7 +154,7 @@
             </div>
         </div>
 
-        <hr class="style-two">
+<hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-5">
@@ -183,6 +183,39 @@
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/tematin_logo.png">
+            </div>
+        </div>
+
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/cachtice_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta27', $this); ?>
+                </h2>
+
+                <p class="lead">
+                    <?php echo label('veta28', $this); ?>
+                </p>
+            </div>
+        </div>
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta29', $this); ?></h2>
+
+                <p class="lead">
+                    <?php echo label('veta30', $this); ?>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/ratnovce_logo.png">
             </div>
         </div>
 
@@ -233,6 +266,22 @@
                     <?php echo label('veta26', $this); ?></p>
             </div>
         </div>
+        
+        		<hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta31', $this); ?></h2>
+
+                <p class="lead">
+                    <?php echo label('veta32', $this); ?>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/majer_logo.png">
+            </div>
+        </div>
+        
 <hr class="featurette-divider">
     </div>
     </div>

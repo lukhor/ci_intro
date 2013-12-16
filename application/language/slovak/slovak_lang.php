@@ -56,7 +56,15 @@ $lang['veta25'] = 'Turistika. <span class="text-muted">Hory všade naokolo.</spa
 $lang['veta26'] = "Pokiaľ patríte medzi turistických nadšencov a vyznávate nerušený oddych v prírode, tak v našom okolí sa určite nebude nudiť.
                     V blízkosti sa nachádzajú známe Tematínske vrchy, Považský Inovec a na druhej strane rieky Váhu Javorina.";
 
-
+$lang['veta27'] = 'Čachtický hrad. <span class="text-muted">Za krvavou grófkou.</span>';
+$lang['veta28'] = "Zrúcanina hradu na vápencovo-dolomitickom vrchu v Čachtickom krase, Malých Karpatoch medzi obcami Čachtice a Višňové. 
+				   Najkrajšia trasa na Čachtický hrad je pre peších návštevníkov z obce Višňové (230 metrov). ";
+$lang['veta29'] = 'Ratnovská zátoka. <span class="text-muted">Rušné stredisko vodných športov.</span>';
+$lang['veta30'] = "Areál sa nachádza na jazere Sĺňava 3 km od Piešťan. Slúži pre lyžiarov začiatočníkov pod vedením inštruktora, mierne 
+				   pokročilým i skúseným vodných lyžiarov, ako aj pre rodiny s deťmi. K dispozícii je tiež plážové kúpalisko, plážový volejbal, 
+				   detské ihrisko, možnosť občerstvenia. ";
+$lang['veta31'] = 'Reštaurácia Majer. <span class="text-muted">Vychutnajte jedlo v pokoji.</span>';
+$lang['veta32'] = "Našu reštauráciu nájdete medzi obcami Hrádok a Hôrka nad Váhom. Ide o samostatne stojaci objekt, ktorý uvidíte už z cesty. Vďaka tejto polohe si u nás vychutnáte jedlo v pokoji a s nádherným výhľadom na blízky les.";
 
 $lang['phone'] = "Telefónne číslo";
 $lang['address'] = "Adresa";

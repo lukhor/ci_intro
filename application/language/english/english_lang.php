@@ -33,7 +33,7 @@ $lang['veta15'] = 'Beckov Castle. <span class="text-muted">The national cultural
 $lang['veta16'] = "BIt was castle of the kings, powerful lords and castle of the knights, which resisted the Tartars and Turks. History of this castle is filled with legends, which intensify the romance of its present form. Nearby you can also visit: cycling roads, Beckov Mansion restaurant or bowling…";
 $lang['veta17'] = 'Kálnica. <span class="text-muted">Sport paradise.</span>';
 $lang['veta18'] = "In the summer it is a bike park Kalnica, where the greatest downhill enthusiasts meet. If you own such a monster, this location is perfect for you. In contrast, in the winter trails gets a touch of white and are changing into ski resort with lots of attractions, which are waiting just for you…";
-$lang['veta19'] = 'Tematínsky Castle. <span class="text-muted">One of the most beautiful sights.</span>';
+$lang['veta19'] = 'Tematín Castle. <span class="text-muted">One of the most beautiful sights.</span>';
 $lang['veta20'] = "It is a castle ruin in part of Povazsky Inovec Mountains. It was replaced by many owners since 13th century. It was badly damaged and deserted in the early of 18th century. The surroundings are protected territory Tematin hills.";
 $lang['veta21'] = 'Piešťany. <span class="text-muted">The biggest and best known spa town.</span>';
 $lang['veta22'] = "City of Piestany needs no introduction. It is 10 km away from Modrovka village. There are many options for culture, sports and spa provide relaxation. Procedures are also provided outpatient basis, so there is the option of commuting. There are organized various events during the bathing season, that will satisfy even the most demanding.";
@@ -42,6 +42,15 @@ $lang['veta24'] = "Excellent cuisine and pleasant atmosphere in the countryside 
 $lang['veta25'] = 'Hiking. <span class="text-muted">Mountains everywhere.</span>';
 $lang['veta26'] = "If you belong to hiking enthusiasts and looking for undisturbed rest in nature, you will find the right place there. There are famous Tematin hills, Povazsky Inovec and Javorina on the other side of the river Vah.";
 
+$lang['veta27'] = 'Čachtice castle. <span class="text-muted">In the footsteps of bloody countess.</span>';
+$lang['veta28'] = "The ruins of the castle is situated in Čachtice kras, Malé Karpaty between the villages Čachtice and Višňové.
+The most beautiful route on Čachtice Castle is for pedestrians visitors from the village Višňové (230 meters). ";
+$lang['veta29'] = 'Ratnovce bay. <span class="text-muted">The resort of water sports.</span>';
+$lang['veta30'] = "The resort is located on a lake Sĺňava 3 km from Piestany. It is suitable for waterskiing beginners led by an instructor, intermediate and experienced water skiers, as well as for families with children. There is also a swimming beach, 
+				   beach volleyball, playground and also possibility of refreshments. ";
+$lang['veta31'] = 'Majer restaurant. <span class="text-muted">Enjoy your meal in peace.</span>';
+$lang['veta32'] = "Our restaurant can be found between the villages Hrádok and Hôrka nad  Váhom. It is a detached object, which can be seen from the road. With this position, you will enjoy a meal with us in peace with breathtaking view of the nearby forest.";
+				   
 $lang['phone'] = "Telephone number";
 $lang['address'] = "Address";
 $lang['coordinate'] = "GPS coordinates";
