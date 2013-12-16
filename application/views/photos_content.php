@@ -153,7 +153,7 @@
         <div class="col-lg-12 text-center">
         	
         	<hr class="featurette-divider2">
-            <h1 class="posundole">Exteriér</h1>
+            <h1 class="posundole"><?php echo label('veta11', $this); ?></h1>
             <hr class="style-down">
             <?php
                 /*GENEROVANIE FOTOGALÉRIE*/
@@ -167,7 +167,7 @@
 
             ?>
             <hr class="featurette-divider">
-            <h1>Interiér</h1>
+            <h1><?php echo label('veta12', $this); ?></h1>
             <hr class="style-down">
             <?php
                 for($i = 1;$i < 21;$i++){

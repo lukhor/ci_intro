@@ -30,9 +30,9 @@
                         <li>
                             <a href="contact"> <?php echo label('contact', $this); ?></a>
                         </li>
-                       
                         <li>
                             <div class="pocasie_komplet">
+
                                 <div class="pocasie_nazov1">
                                     <?php echo label('actual', $this); ?>
                                 </div>
@@ -45,25 +45,21 @@
                                     <?php echo label('weather', $this); ?>
                                 </div>
                             </div>
+                            <div style="clear: both"></div>
                         </li>
-                         <li<?php
-							if ($this -> session -> userdata("lang") == "slovak") {
-								echo " class='active'";
-							}
-                        ?>>
-                            <?php
-							$this -> session -> set_userdata("page", "home");
-							echo anchor("site/change/slovak", "SK");
-                            ?>
+                        <li<?php if ($this->session->userdata("lang") == "slovak") {echo " class='active'";}?>>
+                        <?php $this->session->set_userdata("page", "home");
+                        echo anchor("site/change/slovak", "SK");
+                        ?>
                         </li>
                         <li<?php
-							if ($this -> session -> userdata("lang") == "english") {
-								echo " class='active'";
-							}
- ?>>
+                        if ($this->session->userdata("lang") == "english") {
+                            echo " class='active'";
+                        }
+                        ?>>
                             <?php
-							$this -> session -> set_userdata("page", "home");
-							echo anchor("site/change/english", "ENG");
+                            $this->session->set_userdata("page", "home");
+                            echo anchor("site/change/english", "ENG");
                             ?>
                         </li>
                     </ul>
@@ -104,22 +100,22 @@
 <!-- ======= weather div -->
 <div id="weather" class="weatherFeed" style="display: none"></div>
 <div class="content">
-	
-	 <hr class="style-five"><br />
-<div>
-        	    	    	<div class="price3">
-        	    	    		
-        	    	    	</div>	
-        	    	    	<div class="price4">
-        	    	    </div>
-<div class="container">
-	
-    <!--<li><a href="contact"><?php /*echo label('accomodation', $this); */?></a></li>
+
+    <hr class="style-five">
+    <br/>
+
+    <div>
+        <div<?php if ($this->session->userdata("lang") == "slovak") echo " class='price3_sk'"; else echo " class='price3_eng'";?>></div>
+        <div<?php if ($this->session->userdata("lang") == "slovak") echo " class='price4_sk'"; else echo " class='price4_eng'";?>></div>
+
+        <div class="container">
+
+            <!--<li><a href="contact"><?php /*echo label('accomodation', $this); */?></a></li>
         <li><?php /*echo anchor("site/change/slovak", "SK") */?></li>
         <li><?php /*echo anchor("site/change/english", "ENG") */?></li>-->
 
-    <!--CONTENT-->
-<!--
+            <!--CONTENT-->
+            <!--
     <div class="row">
         <div class="col-lg-12">
 
@@ -146,88 +142,95 @@
         </div>
     </div>
     <!--</div>--><!--uzavretie divu v footri-->
-    <!-- Button trigger modal -->
-    
-   
-           
+            <!-- Button trigger modal -->
+
+
             <div class="col-md-7">
-                <h2>Ubytovanie Modrovka. <span class="text-muted"></span>
+                <h2><?php echo label('veta1', $this); ?><span class="text-muted"></span>
                 </h2>
 
                 <p class="lead2">
-                    "Ubytovanie je vhodné pre široké spektrum zákazníkov a každý tu nájde to, čo práve potrebuje."<br>
-					
+                    <?php echo label('veta2', $this); ?>
+
 
                 </p>
-                 <p class="lead3">
-                    
-					Na Vašu návštevu sa teší Marta Masárová.
+
+                <p class="lead3">
+
+                    <?php echo label('veta3', $this); ?>
 
                 </p>
             </div>
-        
-        
-        <div class="rychly_kontakt">
-        </div>
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        <?php echo label('reservation', $this); ?>
-    </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel"><?php echo label('reservationform', $this); ?></h4>
+
+            <div class="rychly_kontakt">
+            </div>
+            <!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                <?php /*echo label('reservation', $this); */?>
+            </button>-->
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title"
+                                id="myModalLabel"><?php echo label('reservationform', $this); ?></h4>
+                        </div>
+                        <form role="form" action="site/sent_mail" method="post">
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="nameOf"><?php echo label('name', $this); ?></label>
+                                    <input type="text" class="form-control" id="nameOf" name="nameOf"
+                                           placeholder="<?php echo label('name_', $this); ?>">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="dateFrom"><?php echo label('datefrom', $this); ?></label>
+                                    <input type="date" class="form-control" id="dateFrom" name="dateFrom"
+                                           placeholder="<?php echo label('datefrom_', $this); ?>">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="dateTo"><?php echo label('dateto', $this); ?></label>
+                                    <input type="date" class="form-control" id="dateTo" name="dateTo"
+                                           placeholder="<?php echo label('dateto_', $this); ?>">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="amountOfPerson"><?php echo label('amountof', $this); ?></label>
+                                    <input type="number" class="form-control" id="amountOfPerson" name="amountOfPerson"
+                                           placeholder="<?php echo label('amountof_', $this); ?>">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact1"><?php echo label('contact', $this); ?></label>
+                                    <input type="text" class="form-control" id="contact1" name="contact1"
+                                           placeholder="<?php echo label('contact_', $this); ?>">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="note"><?php echo label('note', $this); ?></label>
+                                    <input type="text" class="form-control" id="note" name="note"
+                                           placeholder="<?php echo label('note_', $this); ?>">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default"
+                                        data-dismiss="modal"><?php echo label('exit', $this); ?></button>
+                                <button type="submit"
+                                        class="btn btn-primary"><?php echo label('send', $this); ?></button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.modal-content -->
                 </div>
-                <form role="form" action="site/sent_mail" method="post">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="nameOf"><?php echo label('name', $this); ?></label>
-                            <input type="text" class="form-control" id="nameOf" name="nameOf" placeholder="<?php echo label('name_', $this); ?>">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="dateFrom"><?php echo label('datefrom', $this); ?></label>
-                            <input type="date" class="form-control" id="dateFrom" name="dateFrom" placeholder="<?php echo label('datefrom_', $this); ?>">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="dateTo"><?php echo label('dateto', $this); ?></label>
-                            <input type="date" class="form-control" id="dateTo" name="dateTo" placeholder="<?php echo label('dateto_', $this); ?>">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="amountOfPerson"><?php echo label('amountof', $this); ?></label>
-                            <input type="number" class="form-control" id="amountOfPerson" name="amountOfPerson"
-                                   placeholder="<?php echo label('amountof_', $this); ?>">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="contact1"><?php echo label('contact', $this); ?></label>
-                            <input type="text" class="form-control" id="contact1" name="contact1"
-                                   placeholder="<?php echo label('contact_', $this); ?>">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="note"><?php echo label('note', $this); ?></label>
-                            <input type="text" class="form-control" id="note" name="note"
-                                   placeholder="<?php echo label('note_', $this); ?>">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo label('exit', $this); ?></button>
-                        <button type="submit" class="btn btn-primary"><?php echo label('send', $this); ?></button>
-                    </div>
-                </form>
+                <!-- /.modal-dialog -->
             </div>
-            <!-- /.modal-content -->
+            <!-- /.modal -->
+            <hr class="featurette-divider">
         </div>
-        <!-- /.modal-dialog -->
     </div>
-    <!-- /.modal -->
-  <hr class="featurette-divider">
-</div>
-</div>
-  <hr class="style-four">
+    <hr class="style-four">
