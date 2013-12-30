@@ -130,12 +130,11 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Bezovec. <span class="text-muted">Športové vyžitie, hlavne v zime.</span>
+                <h2 class="featurette-heading"><?php echo label('veta13', $this); ?>
                 </h2>
 
                 <p class="lead">
-                    Rekreačné stredisko Bezovec je rajom pre lyžiarov. Sú tu vybudované 4 vleky s umelým zasnežovaním a osvetlením na nočné lyžovanie. 
-                    Pre tých najmenších je tu detský vlek s možnosťou výučby lyžovania vlastným inštruktorom.
+                    <?php echo label('veta14', $this); ?>
                 </p>
             </div>
         </div>
@@ -143,13 +142,10 @@
         <hr class="style-two">
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Hrad Beckov. <span
-                        class="text-muted">Národná kultúrna pamiatka Slovenska. </span></h2>
+                <h2 class="featurette-heading"><?php echo label('veta15', $this); ?></h2>
 
                 <p class="lead">
-                    Bol hradom kráľov, mocných veľmožov a rytierov, hradom, ktorý odolal Tatárom aj Turkom. 
-                    Jeho minulosť je opradená povesťami, ktoré umocňujú romantiku jeho dnešnej podoby. 
-                    V jeho blízkosti môžete taktiež navštíviť: cyklotrasy, reštauráciu Kúria Beckov alebo kolkáreň..
+                    <?php echo label('veta16', $this); ?>
                 </p>
             </div>
             <div class="col-md-5">
@@ -158,7 +154,7 @@
             </div>
         </div>
 
-        <hr class="style-two">
+<hr class="style-two">
 
         <div class="row featurette">
             <div class="col-md-5">
@@ -166,13 +162,11 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Kálnica. <span class="text-muted">Raj pre športovcov.</span>
+                <h2 class="featurette-heading"><?php echo label('veta17', $this); ?>
                 </h2>
 
                 <p class="lead">
-                    V lete je to bike park Kalnica, kde sa stretávajú tí najväčší nadšenci downhillu. 
-                    Pokiaľ vlastníte takéto monštrum, táto lokalita je ako stvorená pre vás. 
-                    Naopak v zime dostáva zjazdovka biely nádych a mení sa tak na lyžiarske stredisko s množstvom akcíí, ktoré čakajú práve na vás..
+                    <?php echo label('veta18', $this); ?>
                 </p>
             </div>
         </div>
@@ -181,15 +175,47 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Tematínsky hrad. <span class="text-muted">Jeden z najkrajších výhľadov.</span></h2>
+                <h2 class="featurette-heading"><?php echo label('veta19', $this); ?></h2>
 
                 <p class="lead">
-                    Zrúcanina hradu na Západnom Slovensku v pohorí Považský Inovec. Od jeho vzniku v 13. storočí vystriedal mnoho majiteľov. 
-                    Začiatkom 18. storočia bol ťažko poškodený a pustol. V okolí chránené územie Tematínske vrchy.
+                    <?php echo label('veta20', $this); ?>
                 </p>
             </div>
             <div class="col-md-5">
                 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/tematin_logo.png">
+            </div>
+        </div>
+
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/cachtice_logo.png"
+                    >
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta27', $this); ?>
+                </h2>
+
+                <p class="lead">
+                    <?php echo label('veta28', $this); ?>
+                </p>
+            </div>
+        </div>
+
+        <hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta29', $this); ?></h2>
+
+                <p class="lead">
+                    <?php echo label('veta30', $this); ?>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/ratnovce_logo.png">
             </div>
         </div>
 
@@ -201,14 +227,11 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Piešťany. <span class="text-muted">Kúpeľné mesto na Slovensku.</span>
+                <h2 class="featurette-heading"><?php echo label('veta21', $this); ?>
                 </h2>
 
                 <p class="lead">
-                    Mesto Piešťany netreba zvlášť predstavovať. Od obce Modrovka je vzdialené 10 km. 
-                    Je tam veľa možností kultúrneho a športového využitia a kúpele poskytujú relax a oddych. 
-                    Procedúry sú poskytované aj ambulantne, takže je tu možnosť dochádzania. Je to cca 8 km. 
-                    V období kúpeľnej sezóny sú poriadané rôzne akcie, ktoré uspokoja aj tých najnáročnejších.
+                    <?php echo label('veta22', $this); ?>
                 </p>
             </div>
         </div>
@@ -217,11 +240,10 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Furman. <span class="text-muted">Reštaurácia v prírode.</span></h2>
+                <h2 class="featurette-heading"><?php echo label('veta23', $this); ?></h2>
 
                 <p class="lead">
-                    Vynikajúca kuchyňa a príjemné posedenie v prírode obklopené divou zverou (jelene, daniele, srnky, lane). 
-                    Pre deti je pripravené detské ihrisko.
+                    <?php echo label('veta24', $this); ?>
                 </p>
             </div>
             <div class="col-md-5">
@@ -237,15 +259,29 @@
                     >
             </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">Turistika. <span class="text-muted">Hory všade naokolo.</span>
+                <h2 class="featurette-heading"><?php echo label('veta25', $this); ?>
                 </h2>
 
                 <p class="lead">
-                    Pokiaľ patríte medzi turistických nadšencov a vyznávate nerušený oddych v prírode, tak v našom okolí sa určite nebude nudiť. 
-                    V blízkosti sa nachádzajú známe Tematínske vrchy, Považský Inovec a na druhej strane rieky Váhu Javorina.
-                </p>
+                    <?php echo label('veta26', $this); ?></p>
             </div>
         </div>
+        
+        		<hr class="style-two">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading"><?php echo label('veta31', $this); ?></h2>
+
+                <p class="lead">
+                    <?php echo label('veta32', $this); ?>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="images/majer_logo.png">
+            </div>
+        </div>
+        
 <hr class="featurette-divider">
     </div>
     </div>

@@ -30,7 +30,7 @@
                         <li>
                             <a href="contact"> <?php echo label('contact', $this); ?></a>
                         </li>
-
+                       
                         <li>
                             <div class="pocasie_komplet">
                                 <div class="pocasie_nazov1">
@@ -139,26 +139,26 @@
     </div>
     <!--</div>--><!--uzavretie divu v footri-->
     <!-- Button trigger modal -->
-
-
-
+    
+   
+           
             <div class="col-md-7">
                 <h2>Ubytovanie Modrovka. <span class="text-muted"></span>
                 </h2>
 
                 <p class="lead2">
                     "Ubytovanie je vhodné pre široké spektrum zákazníkov a každý tu nájde to, čo práve potrebuje."<br>
-
+					
 
                 </p>
                  <p class="lead3">
-
+                    
 					Na Vašu návštevu sa teší Marta Masárová.
 
                 </p>
             </div>
-
-
+        
+        
         <div class="rychly_kontakt">
         </div>
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">

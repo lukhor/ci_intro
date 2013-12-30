@@ -22,37 +22,38 @@
     <div class="col-lg-12">
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Modrovka<li>
-          <li><a href="#">O nás</a></li>
-          <li><a href="#">Ubytovanie</a></li>
-          <li><a href="#">Fotogaléria</a></li>
-          <li><a href="#">Okolie</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><b>Modrovka</b><li>
+          <li><a href="home"><?php echo label('about', $this); ?></a></li>
+          <li><a href="accomodation"><?php echo label('accomodation', $this); ?></a></li>
+          <li><a href="photos"><?php echo label('photogallery', $this); ?></a></li>
+          <li><a href="attractions"><?php echo label('attractions', $this); ?></a></li>
+          <li><a href="contact"><?php echo label('contact', $this); ?></a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Šport v okolí<li>
-          <li><a href="#">Bezovec</a></li>
-          <li><a href="#">Kálnica</a></li>
-          <li><a href="#">Turistika</a></li>
-          <li><a href="#">Piešťanské kúpele</a></li>
+          <li><b><?php echo label('sportnearby', $this); ?></b><li>
+          <li><a href="http://www.skibezovec.sk/" target="_blank">Bezovec</a></li>
+          <li><a href="http://www.bikecentrumkalnica.sk/" target="_blank">Kálnica</a></li>
+          <li><a href="http://www.kamnavylet.sk/atrakcia/mala-a-velka-pec-prasnik" target="_blank">Turistika</a></li>
+          <li><a href="http://piestany.danubiushotels.sk/destinacie/piestany/o-meste?sid=q5c323uhhm4mdebvg23ovqpp32" target="_blank">Piešťanské kúpele</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul class="list-unstyled">
-          <li>Kultúra v okolí<li>
-          <li><a href="#">Hrad Beckov</a></li>
-          <li><a href="#">Reštaurácia Furman</a></li>
-          <li><a href="#">Tematínsky hrad</a></li>
+          <li><b><?php echo label('culturenearby', $this); ?></b><li>
+          <li><a href="http://www.hrad-beckov.sk/" target="_blank">Hrad Beckov</a></li>
+          <li><a href="http://www.furman.sk/" target="_blank">Reštaurácia Furman</a></li>
+          <li><a href="http://www.tematin.eu/" target="_blank">Tematínsky hrad</a></li>
         </ul>
       </div>
         <div class="col-md-3">
             <ul class="list-unstyled">
-                <li><b>Kontakt</b><li>
-                <li><i>Telefon</i><li>
-                <li><i>Email</i><li>
-                <li><i>Adresa</i><li>
+                
+                <li><i><b><?php echo label('phone', $this); ?>:</b> 033/7785155<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+421904316055</i><li>
+                <li><i><b>Email:</b> macka.masarova@gmail.com</i><li>
+                <li><i><b><?php echo label('address', $this); ?>:</b> Modrovka 54<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                					  91635<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ul.Modrová</i><li>
             </ul>
         </div>
     </div>
@@ -61,12 +62,12 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="col-md-8">
-        <a href="#">Terms of Service</a>    
+        <!--<a href="#">Terms of Service</a>
         <a href="#">Privacy</a>    
-        <a href="#">Security</a>
+        <a href="#">Security</a>-->
       </div>
       <div class="col-md-4">
-        <p class="muted pull-right">© 2013</p>
+        <p class="muted pull-right">© 2013 Created by <a href="mailto:michal.trunek@gmail.com">T</a> + <a href="mailto:lukhor@gmail.com">H</a></p>
       </div>
     </div>
   </div>
